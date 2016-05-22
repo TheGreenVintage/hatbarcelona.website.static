@@ -1,0 +1,132 @@
+# Do not edit this generated file
+---
+en:
+  locales:
+    en: English
+  not_found:
+    title: Not found
+    message: Resource not found
+  meta:
+    title: HAT Barcelona tour
+    description: HAT Barcelona is a...
+    keywords: tours alella hat barcelona wine
+  cookies:
+    title: Cookie policy
+    message: This website uses cookies to ensure you get the best experience on our
+      website
+    got_it: Got it!
+    learn_more: More information
+  generic:
+    navigate: Browse
+    dragging: Move
+    arrows: Arrows
+    keyboard: Keyboard
+    navigation: Navegation
+    more_info: More information
+  home:
+    title: Home
+    front_title: HAT Alella Tour
+    front_description: Live and authentic experience of the 19th century!
+  tour:
+    title: Tour
+  prices:
+    title: Prices
+  gallery:
+    title: Gallery
+  contact:
+    title: Contact
+  footer:
+    all_rights_reserved: All rights reserved
+    contact_us: Contact us
+    adress: Carrer de Casp, 79 Penthouse
+    location: Barcelona, 08013
+    follow: Follow Us
+    email: bookings@hatbarcelona.com
+    description: HAT Barcelona Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Nam non magna eleifend, dignissim ex eget, facilisis dui. Maecenas nec
+      felis et sem lobortis cursus ut porttitor sapien. In hac habitasse platea dictumst.
+      Vestibulum ornare fringilla sapien, at interdum erat laoreet vestibulum.
+    phone: "(+34) 679 400 576 / (+34) 644 282 929"
+    copyright: HAT Barcelona - 2016 -
+  product:
+    title: TAKE A CITY BREAK FROM BARCELONA TO VISIT ALELLA AND ITS NEIGHBORING WINERY
+    description: "On this tour you will have a unique experience that let you know
+      how the Catalan bourgeoisie lived in Alella during the 19th century.\nAlella
+      is a small charming village located in the comarca of Maresme, between the Mediterranean
+      Sea and the coastal mountain range named Serralada del Litoral. It is also well
+      known for its wine production & valley vineyards, just 15km away from Barcelona.\n\nThis
+      wonderful tour will provide knowledgement about Catalan history, culture, gastronomy
+      and it is perfect to be close to local people. \n\nHAT Barcelona finds it to
+      be the ideal experience for the nature-loving people that needs a quick recharge
+      from the hustle-and-bustle of the city!"
+  newsletter:
+    front_name: Fullname
+    front_email: E-mail
+    button: GO!
+  icone:
+    title_1: Days & Duration
+    description_1: Tuesday and Thursday. The tour has a duration of 6 hours approx
+    title_4: People
+    description_4: Max. 20 - Min. 6
+    title_2: Meeting Point
+    description_2: Catalonia Square in front of Hard Rock Cafe at 9.30 am. There will
+      be someone wearing an orange hat
+    title_3: Languages available
+    description_3: English, French, Spanish and Catalan
+  blue:
+    line: Itinerary
+  itinerary:
+    tile_1: Bouquet d'Alella
+    description_1: The first activity will be done in a typical farmhouse of the 14th
+      century, surrounded by vineyards. Bouquet  is a small, family-run winery that
+      offers a small production of wines made from mostly local grapes grown over
+      thirteen hectares of land. You will visit the cellar and the vineyards. Finally
+      you will taste four organic and high quality wines.
+    tile_2: Modernist Walking Tour
+    description_2: The tour is much more than a series of photo opportunities (although
+      don't forget your camera!). Dig deep into the roots of the movement and explore
+      the social unrest, political and cultural issues. The result is a memorable
+      one of the most important art of the world and a tribute to some of its most
+      talented artists.
+    tile_3: Local Market
+    description_3: |-
+      During this walking tour we ‘ll make a stop at the Local Market of Alella, which opened its doors in X, you will learn about locally grown products, get to know some of the vendors who have been there for years.
+      This casual stop is for you to savour typical  gastronomic heritage from a local perspective.
+    tile_4: Vermouth Time
+    description_4: "Vermouth is more than a simple drink, it is a beautiful tradition.
+      Enjoy a typical Spanish vermouth and tapas in a truly authentic Catalan Tavern,
+      which opened its doors 27 years ago. \nDiscover the tavern that has become reference
+      as a traditional place to take vermouth in the middle of this special village."
+    button_4: MENU
+  updates:
+    line_title: Newsletter
+    line_subtitle: No spam promise - only latest news and prices!
+    line_title_button: Suscribe
+    line:
+      button_name: Your name
+      button_email: your@email.com
+  packages:
+    title: SIMPLE BOOKING & BEST PRICES
+    description: Say goodbye to long reservation forms and endless emails. Our booking
+      can be done within three clicks. We have the best price, guaranteed. Have a
+      look!
+    price_vat: VAT Included
+    price_button: Book now!
+  menu:
+    title: Vermouth Menu
+    adults:
+      title: Menu
+      description: "1X4 Bottle wine D.O. Alella, beer, soft-drink\nChips potatoes
+        with Salsalella\nAnchovy stuffed olives \nAnchovies in vinegar \nAssortment
+        of typical catalan cold meat: cheese, spicy pork sausage, ham, black and white
+        sausage, bread with tomato or the traditional Pà amb tomàquet"
+    kids:
+      title: Menu Kids
+      description: "Chips potatoes\nBig sandwich with local products \nSoft-drink
+        or water"
+    special: Allergic, vegetarian and vegan options available. Please advise us after
+      you make your booking
+  map:
+    title: Remember our Meeting Point
+    description: Catalonia Square in front of Hard Rock Cafe at 9.30 am. There will
+      be someone wearing an orange hat
