@@ -1,0 +1,33 @@
+<section id="prices" class="section product-section align-center dark-text animated" data-animation="fadeInUp" data-duration="500">
+  <div class="container">
+    <div class="section-header">
+      <h2>PRIVATEEEEEE: {{ 'packages.title' | translate }}</h2>
+      <p class="sub-header"> {{ 'packages.description' | translate }} </p>
+    </div>
+    <div class="section-content row">
+
+      {% for package in site.data.packages %}
+      <div class="col-sm-4">
+        <div class="package-column">
+          <div class="package-title">{{ package | field: 'title'}}</div>
+          <div class="package-price">
+            <div class="price">{{ package.price }} <span class="currency">&euro;</span></div>
+            <div class="period">{{ 'packages.price_vat' | translate }}</div>
+          </div>
+          <div class="package-detail">
+            {% assign included = package | field: 'included' | list %}
+            <ul class="list-unstyled">
+              {% for item in included %}
+              <li>
+                {{ item }}
+              </li>
+              {% endfor %}
+            </ul>
+            <a href="https://www.eventbrite.es/e/entradas-wine-exclusive-tour-25751578665" class="btn btn-outline-color btn-block" target="_blank">{{ 'packages.price_button' | translate }}</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

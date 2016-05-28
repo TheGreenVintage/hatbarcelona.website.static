@@ -30,7 +30,7 @@ Startuply = {
         stickyMenuOffset: 500,
         smoothScroll: false,
         smoothScrollSpeed: 800,
-        ajaxedForm: true,
+        ajaxedForm: false,
         ajaxedFormSuccessMsg: 'Success',
         ajaxedFormErrorMsg: 'An error occured. Please try again later.',
         toastrPositionClass: 'toast-top-full-width'

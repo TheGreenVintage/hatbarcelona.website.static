@@ -1,0 +1,46 @@
+{% include header-compact.html %}
+
+<div class="container product">
+
+  <div class="row">
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-10">
+      <div class="product-slider">
+        {% assign images = '1,2,3,4,5,6,7,8,9,1' | split: ','%}
+        <div class="product-image-wrapper">
+          <ul class="product-image-list">
+            {% for image in images %}
+            <li class="product-image" data-img-id="product-image-0{{image}}"><img src="/assets/img/menus/alella/{{image}}.jpg" class="img-responsive" alt=""></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="product-thumb-wrapper">
+          <ul class="product-thumb-list">
+            {% for image in images %}
+            <li class="col-xs-3 product-thumb" data-img-id="product-image-0{{image}}"><img src="/assets/img/menus/alella/thumbnails/{{image}}.jpg" alt=""></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="product-text align-center clearfix">
+      {% for menu in site.data.menus %}
+        <h2 class="uppercase">{{ menu | field: 'title' }}</h2>
+        {% assign included = menu | field: 'description' | list %}
+        <ul class="list-unstyled">
+          {% for item in included %}
+          <li>
+            {{ item }}
+          </li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </div>
+</div>

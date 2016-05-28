@@ -1,11 +1,10 @@
 # Site settings
-title: The Green Vintage
-email: info@thegreenvintage.com
+title: HAT Barcelona tour
+email: info@hatbarcelona.com
 locale: en
 keywords: barcelona maresme events eventos esdeveniments services servicios serveis bodas bodes weddings corporative corporativos corporatius catalunya cataluña
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.thegreenvintage.com" # the base hostname & protocol for your site
-cdn: '' # cdn.thegreenvintage.com
+url: "https://www.hatbarcelona.com" # the base hostname & protocol for your site
 exclude: [Gemfile, Gemfile.lock, vendor]
 
 locales:
@@ -16,5 +15,9 @@ locales:
 # Build settings
 markdown: kramdown
 
+author:
+  twitter: openfcsonline
+
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
