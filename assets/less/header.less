@@ -3,6 +3,15 @@
 ---------------------------------------------------------------------------- */
 
 
+.menu-page header {
+  background-image: url("/assets/img/background/form-bg1.jpg");
+  -moz-background-size: cover;
+  background-size: cover;
+  position: relative;
+  background-position: center 280px;
+  height: 75px;
+}
+
 .navigation-header {
     position: absolute;
     top: 0;
@@ -26,24 +35,27 @@
     .navigation-brand {
         float: left;
         margin-right: 50px;
-        margin-top: 17px;
+        margin-top: 10px;
 
         .brand-logo  {
-            width: 130px;
+            width: 230px;
 
             .logo {
                 .background-size(contain);
 
                 display: block;
-                height: 30px;
+                height: 150px;
                 background-image: url("@{img-path}logo.png");
                 background-repeat: no-repeat;
                 background-position: left center;
-                line-height: 30px;
+                line-height: 130px;
 
                 &.logo-alt {
                     display: none;
                     background-image: url("@{img-path}logo-inverted.png");
+                    line-height: 50px;
+                    height: 55px;
+                    margin: -10px 0px 5px 0px;
                 }
             }
 
@@ -117,7 +129,7 @@
             font-family: @font-family-heading;
             font-size: @font-size-small;
             text-transform: uppercase;
-            color: fade(@text-white-alt, 80%);
+            color: fade(@text-white, 95%);
             line-height: 1;
             border-bottom: 2px solid transparent;
 
@@ -225,6 +237,10 @@
             &:extend(.base-clr-txt);
         }
     }
+}
+
+.navigation-call-to-action {
+  display: none;
 }
 
 .white-dropdown .navigation-bar > .dropdown:not(.featured),
@@ -362,6 +378,12 @@ header {
             &:extend(.base-clr-bd);
             &:extend(.base-clr-txt);
         }
+    }
+
+    .navigation-call-to-action {
+      height: 55px;
+      line-height: 55px;
+      display: block;
     }
 }
 

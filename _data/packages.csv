@@ -1,16 +1,40 @@
-price,age_en,title_en,included_en
-91,,HAT Adults,"Transportation & Speaking guide
+price,age,title_en,title_es,title_ca,included_en,included_es,included_ca
+98,,HAT Adults,HAT Adultos,HAT Adutls,"Transportation & guide
 Winery visit & wine tasting
-Walking modernist tour
+Walking Modernist tour
 Visit local market
-Vermouth time"
-88,,HAT Seniors,"Transportation & Speaking guide
+Vermouth time","Transporte y guía local 
+Bodega + Cata de vinos ecológicos 
+Itinerario Modernista 
+Mercado local 
+La hora del Vermut ","Transport i guia local 
+Celler + Tast de vins ecològics 
+Itinerari Modernista 
+Mercat local 
+L'hora del Vermut "
+95,≥ 65 ,HAT Seniors ,HAT Seniors,HAT Seniors,"Transportation & guide
 Winery visit & wine tasting
-Walking modernist tour
+Walking Modernist tour
 Visit local market
-Vermouth time"
-56,,HAT Children,"Transportation
-Speaking guide
-Walking modernist tour
+Vermouth time","Transporte y guía local 
+Bodega + Cata de vinos ecológicos 
+Itinerario Modernista 
+Mercado local 
+La hora del Vermut ","Transport i guia local 
+Celler + Tast de vins ecològics 
+Itinerari Modernista 
+Mercat local 
+L'hora del Vermut "
+49,4 - 12 ,HAT Kids ,HAT Niños,HAT Nens,"Transportation
+Local guide
+Walking Modernist tour
 Visit local market
-Vermouth time"
+Kids' meal ","Trayecto en autocar 
+Acompañamiento de un guía local 
+Itinerario Modernista
+Mercado local 
+Menú infantil","Trajecte en autocar 
+Acompanyament d'un guia local  
+Itinerari Modernista
+Mercat local 
+Menu infantil"

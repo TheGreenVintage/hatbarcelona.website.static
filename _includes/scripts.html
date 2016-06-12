@@ -1,0 +1,63 @@
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js?ver=1"></script>
+<![endif]-->
+<!--[if (gte IE 9) | (!IE)]><!-->
+<script type="text/javascript" src="/assets/js/jquery-2.1.4.min.js?ver=1"></script>
+<!--<![endif]-->
+
+<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.appear.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.plugin.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.countdown.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/assets/js/toastr.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/assets/js/startuply.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript">
+    var myLatlng;
+    var map;
+    var marker;
+
+    function initialize() {
+        myLatlng = new google.maps.LatLng(41.3861161,2.170571);
+
+        var mapOptions = {
+            zoom: 17,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false,
+            draggable: false
+        };
+        map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+        var contentString = '<p style="line-height: 20px;">{{ 'map.description' | translate }}</p>';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Marker'
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map, marker);
+        });
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+{% assign cookies = 'cookies' | section %}
+<script type="text/javascript">
+window.cookieconsent_options = {"message":"{{ 'cookies.message' | translate }}","dismiss":"{{ 'cookies.got_it' | translate }}","learnMore":"{{ 'cookies.learn_more' | translate }}","link":"{{cookies.permalink}}","theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- E\nd Cookie Consent plugin -->

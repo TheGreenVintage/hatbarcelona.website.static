@@ -1,0 +1,175 @@
+# Do not edit this generated file
+---
+es:
+  locales:
+    en: Español
+  not_found:
+    title: No encontrado
+    message: Recurso no encontrado
+  meta:
+    title: HAT Barcelona tour
+    description: HAT Barcelona organiza tours exclusivos y únicos
+    keywords: tours alella hat barcelona wine
+  cookies:
+    title: Política de Cookies
+    message: Esta web utiliza cookies para ofrecerte una mejor experiencia y servicio
+    got_it: Acepto
+    learn_more: Más información
+  generic:
+    navigate: Navegar
+    dragging: Mover
+    arrows: Flechas
+    keyboard: Teclado
+    navigation: Navegación
+    more_info: Más información
+  home:
+    title: Inicio
+    front_title: HAT Alella Tour
+    front_description: "¡Vive una experiencia vinícola con Denominación de Origen!"
+    or_private: o consulta nuestro
+    private_button: "$tour privado$"
+  tour:
+    title: Tour
+  prices:
+    title: Precios
+  gallery:
+    title: Galeria
+  contact:
+    title: Contacto
+  private:
+    title: Tour privado
+    home:
+      front_title: HAT Alella Tour
+      front_description: "¡Vive una experiencia vinícola con Denominación de Origen!"
+    icone:
+      title_1: Días y Duración
+      description_1: Todos los días de la semana. 6 horas aprox
+      title_4: Personas
+      description_4: Máx. 20
+      title_2: Punto de encuentro
+      description_2: Servicio de recogida ida y vuelta (en tu alojamiento)
+      title_3: Idiomas disponibles
+      description_3: Español, Catalán, Inglés, Francés, Alemán y Ruso
+    packages:
+      title: RESERVAS Y PRECIOS (Por persona)
+      description: 'En cuanto al precio variará en función de las diferentes necesesidades.
+        Sin embargo, en la siguiente tabla puede ver los precios orientativos de nuestro
+        tour:'
+    guide:
+      description: "$Guías turísticos profesionales, amables y con conocimientos$
+        sobre la historia, la cultura y la tradición de la región"
+    form:
+      title: "¡No deje escapar esta oportunidad!"
+      description: Este tour se puede personalizar según sus necesidades o preferencias.
+        Envíe su solicitud y viva una experiencia inolvidable con HAT Barcelona!
+      title_1: Taller de cocina en lugares privilegiados
+      description_1: Libertad, creatividad, experimentación... ¡Déjate llevar!
+      title_2: Quad entre viñedos
+      description_2: Experimenta la emoción de montar en quad a través de los viñedos!
+      title_3: Pícnic entre viñedos
+      description_3: Disfrute de un pícnic en medio de los viñedos
+      title_4: Desayuno entre viñedos
+      description_4: Comience el día con un desayuno espectacular
+      title_5: Helicóptero + pica pica
+      description_5: Contemplar desde el cielo las vistas y los viñedos
+      title_6: Natura & Yoga
+      description_6: Relájate y conecta con el entorno!
+      conclution: Con nuestros tours privados a medida vivirás Cataluña de la mano
+        de los mejores guías, siempre adaptándonos a tus necesidades, a tu propio
+        idioma y ofreciendo la máxima calidad en el servicio
+    contact:
+      send: Enviar
+      message_placeholder: Mensaje
+      telephone_placeholder: Teléfono
+      email_placeholder: Correo electrónico
+      name_placeholder: Nombre
+      adress_placeholder: Punto de recogida
+      calendar_placeholder: Día y hora
+    contact-sent:
+      sent_title: Su mensaje se ha enviado correctamente
+      sent_description: Gracias por ponerse en contacte con nosotros!
+  footer:
+    all_rights_reserved: Todos los derechos reservados
+    contact_us: Contacta con nosotros
+    adress: Carrer de Casp, 79 Sobreático
+    location: Barcelona, 08013
+    follow: Síguenos
+    email: bookings@hatbarcelona.com
+    description: Visita Cataluña con $HAT Barcelona$ y descubra lugares secretos,
+      rincones históricos y destinos desconocidos
+    phone_1: "(+34) 679 400 576"
+    phone_2: "(+34) 644 282 929"
+    copyright: HAT Barcelona - 2016 -
+  product:
+    title: Disfruta de un tour guiado a través de los viñedos y descubre la huella
+      del Modernismo en Alella
+    description: 'Alella es una pequeña población situada en la comarca del Maresme,
+      entre el mar Mediterráneo y la cordillera de la costa llamada Serralada del
+      Litoral. Además es conocido por sus viñedos y la producción de vino, a sólo
+      15 km de Barcelona. Con este Tour podrá descubrir cómo vivía la burguesía catalana
+      entre los siglos XIX y XX, y que aún conserva un imponente patrimonio modernista
+      y mantiene viva su identidad cultural. El municipio vinícola da nombre a una
+      de las denominaciones de origen más pequeñas y antiguas de la península: La
+      denominación de origen Alella.'
+    slogan: "$HAT$ Barcelona ofrece un tour para los amantes de la cultura y para
+      quienes quieran  desconectar del bullicio y ajetreo de la ciudad"
+    button: "¡COMPRA AHORA!"
+  icone:
+    title_1: Días y Duración
+    description_1: Martes y jueves. 6 horas aprox
+    title_4: Personas
+    description_4: Máx. 20
+    title_2: Punto de encuentro
+    description_2: Plaza de Cataluña a las 9.30
+    title_3: Idiomas disponibles
+    description_3: Español, Catalán, Inglés y Francés
+  itinerary:
+    line:
+      title: Itinerario
+      subtitle: Tour con valores históricos y culturales
+    title_1: "$Bouquet d'Alella$"
+    description_1: La primera actividad se llevará a cabo en una típica masía del
+      siglo XIV, rodeada de viñedos. Bouquet d'Alella disponen de 13 hectáreas de
+      viñedos de 25 años, con cultivos ecológicos. Visita guiada por el viñedo, por
+      la bodega, y finalmente una degustación de cuatro vinos orgánicos y de alta
+      calidad.
+    title_2: "$La huella del Modernismo$"
+    description_2: Es un itinerario cultural que ofrece la posibilidad de hacer un
+      recorrido por la historia del siglo XIX y principios del XX. Arquitectos como
+      Jeroni Martorell o Josep Puig y Cadafalch desarrollaron algunos de sus proyectos
+      en este bonito pueblo. Adentrándonos en las formas y los colores de la arquitectura
+      alellenca podremos extraer algunas de las características generales de este
+      movimiento.
+    title_3: "$Mercado Local$"
+    description_3: "Durante este recorrido a pie vamos a hacer una parada en el mercado
+      local de Alella, donde conocerà  acerca de los productos locales de la comarca.
+      \nEl Maresme cuenta con un microclima y unas condiciones orográficas muy favorables
+      para el cultivo de la fresa, la uva, los guisantes y las sandías."
+    title_4: "$Hora del Vermut$"
+    description_4: El Vermut es más que una simple bebida, es una hermosa tradición.
+      Disfrute de un típico vermut acompañado de una gran variedad de tapas en una
+      auténtica taberna catalana, abrió sus puertas hace 27 años y es un referente
+      en el bonito puebo de Alella y sus alrededores.
+    button_4: MENÚ
+  updates:
+    line:
+      title: Boletín informativo
+      subtitle: "¡No spam - Sólo novedades y nuevos precios!"
+      button: Suscríbete
+      fullname: Nombre y apellido
+      email: Email
+  packages:
+    title: RESERVAS Y PRECIOS
+    description: Con sólo 3 clics puedes hacer tu reserva con el mejor precio garantizado
+    price_vat: IVA INCLUIDO
+    price_button: "¡Reserva ahora!"
+  menu:
+    adults:
+      title: Menú
+  map:
+    title: Recuerda nuestro punto de encuentro
+    description: Plaza de Cataluña en frente de Hard Rock Café. Deberán buscar un
+      sombrero de color naranja
+  guide:
+    description: "$Guías turísticos profesionales, amables y con conocimientos$ sobre
+      la historia, la cultura y la tradición de la región"

@@ -23,10 +23,15 @@ languages = headers.map do |header|
     loop do
 
       if key_path.length == 1
-        value.strip! rescue puts "#{key_path}" # TODO: Handle errors
-        value = YAML.load(value) if key_path.first.end_with? '_list'
 
-        hash[key_path.first] = value
+        begin
+          value.strip!
+          value = YAML.load(value) if key_path.first.end_with? '_list'
+          hash[key_path.first] = value
+        rescue Exception => e
+          puts("Error: #{key}")
+        end
+
       else
         step_hash = hash[key_path.first] || {}
         hash[key_path.first] = step_hash

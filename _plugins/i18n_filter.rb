@@ -14,15 +14,30 @@ module Jekyll
       I18n.l input, :format => format
     end
 
-    def translate(input, field=nil)
+    def translate(input, highlight=true, linebreak=true)
       locale = @context.registers[:page]['locale']
 
-      if field
-        input["#{field}_#{locale}"]
+      load_translations
+
+      translation = I18n.t input, locale: locale
+
+      if highlight
+        translation.gsub!(/\$([^$]+)\$/, '<span class="highlight">\1</span>')
       else
-        load_translations
-        I18n.t input, locale: locale
+        translation.gsub!(/\$([^$]+)\$/, '\1')
       end
+
+      translation.gsub!(/\n/, '<br />') if linebreak
+      translation
+    end
+
+    def field(input, field)
+      locale = @context.registers[:page]['locale']
+      input["#{field}_#{locale}"]
+    end
+
+    def list(input)
+      input.split(/\n/)
     end
 
     def section(name)

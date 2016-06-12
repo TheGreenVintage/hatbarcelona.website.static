@@ -25,7 +25,7 @@ Template:
   home:
     title: "{{ 'home.title' | translate }}"
     front _title: "{{ 'home.front _title' | translate }}"
-    front_description: "{{ 'home.front_description' | translate }}"
+    front _description: "{{ 'home.front _description' | translate }}"
   tour:
     title: "{{ 'tour.title' | translate }}"
   prices:
@@ -47,9 +47,8 @@ Template:
       submit: "{{ 'footer.newsletter.submit' | translate }}"
     post:
       tittle: "{{ 'footer.post.tittle' | translate }}"
-  product:
-    title: 
-    description: "{{ 'product.description' | translate }}"
+  description:
+    product: "{{ 'description.product' | translate }}"
   newsletter:
     front_name: "{{ 'newsletter.front_name' | translate }}"
     front_email: "{{ 'newsletter.front_email' | translate }}"
