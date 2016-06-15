@@ -8,7 +8,8 @@ es:
     message: Recurso no encontrado
   meta:
     title: HAT Barcelona tour
-    description: HAT Barcelona organiza tours exclusivos y únicos
+    description: Visita Cataluña con HAT Barcelona y descubre lugares secretos, rincones
+      históricos y destinos desconocidos
     keywords: tours alella hat barcelona wine
   cookies:
     title: Política de Cookies
@@ -95,7 +96,7 @@ es:
     location: Barcelona, 08013
     follow: Síguenos
     email: bookings@hatbarcelona.com
-    description: Visita Cataluña con $HAT Barcelona$ y descubra lugares secretos,
+    description: Visita Cataluña con $HAT Barcelona$ y descubre lugares secretos,
       rincones históricos y destinos desconocidos
     phone_1: "(+34) 679 400 576"
     phone_2: "(+34) 644 282 929"
@@ -122,7 +123,7 @@ es:
     title_2: Punto de encuentro
     description_2: Plaza de Cataluña a las 9.30
     title_3: Idiomas disponibles
-    description_3: Español, Catalán, Inglés y Francés
+    description_3: Inglés
   itinerary:
     line:
       title: Itinerario
@@ -148,7 +149,7 @@ es:
     description_4: El Vermut es más que una simple bebida, es una hermosa tradición.
       Disfrute de un típico vermut acompañado de una gran variedad de tapas en una
       auténtica taberna catalana, abrió sus puertas hace 27 años y es un referente
-      en el bonito puebo de Alella y sus alrededores.
+      en el bonito pueblo de Alella y sus alrededores.
     button_4: MENÚ
   updates:
     line:

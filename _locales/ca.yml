@@ -8,7 +8,8 @@ ca:
     message: Recurs no trobat
   meta:
     title: Hat Barcelona tour
-    description: HAT Barcelona organitza tours exclusius i únics
+    description: Visita Catalunya amb HAT Barcelona i descobreix llocs secrets, racons
+      històrics i destinacions desconegudes
     keywords: tours alella hat barcelona wine
   cookies:
     title: Política de Cookies
@@ -95,7 +96,7 @@ ca:
     location: Barcelona, 08013
     follow: Segueix-nos
     email: bookings@hatbarcelona.com
-    description: Visita Catalunya amb $HAT Barcelona$ i descobreixi llocs secrets,
+    description: Visita Catalunya amb $HAT Barcelona$ i descobreix llocs secrets,
       racons històrics i destinacions desconegudes
     phone_1: "(+34) 679 400 576"
     phone_2: "(+34) 644 282 929"
@@ -122,7 +123,7 @@ ca:
     title_2: Punt de trobada
     description_2: Plaça de Catalunya a les 9.30
     title_3: Idiomes disponibles
-    description_3: Castellà, Català, Anglès i Francès
+    description_3: Anglès
   itinerary:
     line:
       title: Itinerari
