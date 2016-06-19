@@ -1,1 +1,92 @@
-<h1>CONTACCCCCCTTTT!!!</h1>
+<div class="window-height light-text form-section lead-generation1 clearfix">
+  <div class="container centered-block">
+    <div class="col-sm-6 align-left">
+      <h2 style="font-size: 60px;">{{ 'private.form.title' | translate }}</h2>
+      <p style="margin-bottom: 60px;">{{ 'private.form.description' | translate }}</p>
+
+      <div class="row" style="margin: 60px 0px 0px">
+        <div class="col-sm-6">
+          <article class="align-left icon-text icon-block-left">
+            <span class="heading" style="text-transform: uppercase;">{{ 'private.form.title_1' | translate }}</span>
+            <p class="thin">{{ 'private.form.description_1' | translate }}</p>
+          </article>
+        </div>
+        <div class="col-sm-6">
+          <article class="align-left icon-text icon-block-left">
+            <span class="heading" style="text-transform: uppercase;">{{ 'private.form.title_2' | translate }}</span>
+            <p class="thin">{{ 'private.form.description_2' | translate }}</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="row" style="margin: 60px 0px 0px">
+        <div class="col-sm-6">
+          <article class="align-left icon-text icon-block-left">
+            <span class="heading" style="text-transform: uppercase;">{{ 'private.form.title_3' | translate }}</span>
+            <p class="thin">{{ 'private.form.description_3' | translate }}</p>
+          </article>
+        </div>
+        <div class="col-sm-6">
+          <article class="align-left icon-text icon-block-left">
+            <span class="heading" style="text-transform: uppercase;">{{ 'private.form.title_4' | translate }}</span>
+            <p class="thin">{{ 'private.form.description_4' | translate }}</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="row" style="margin: 60px 0px 0px">
+        <div class="col-sm-6">
+          <article class="align-left icon-text icon-block-left">
+            <span class="heading" style="text-transform: uppercase;">{{ 'private.form.title_5' | translate }}</span>
+            <p class="thin">{{ 'private.form.description_5' | translate }}</p>
+          </article>
+        </div>
+        <div class="col-sm-6">
+          <article class="align-left icon-text icon-block-left">
+            <span class="heading" style="text-transform: uppercase;">{{ 'private.form.title_6' | translate }}</span>
+            <p class="thin">{{ 'private.form.description_6' | translate }}</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6" style="padding: 25px 50px;">
+      <div class="alert alert-success" style="display: none">
+        <strong>{{ 'private.contact-sent.sent_title' | translate }}</strong>
+        {{ 'private.contact-sent.sent_description' | translate }}
+        <i class="icon icon-badges-votes-10"></i>
+      </div>
+
+      <form id="contact-form" class="form lead-form form-light" method="post" action="/contact" style="padding: 45px 20px 15px;">
+        <div class="form-group col-sm-12">
+          <input id="first_name" type="text" name="name" class="form-control required" placeholder="{{ 'private.contact.name_placeholder' | translate }}">
+        </div>
+        <div class="form-group col-sm-12">
+          <input id="email" type="email" name="email" class="form-control required email" placeholder="{{ 'private.contact.email_placeholder' | translate }}">
+        </div>
+        <div class="form-group col-sm-12">
+          <input id="phone" type="text" name="phone" class="form-control" placeholder="{{ 'private.contact.telephone_placeholder' | translate }}">
+        </div>
+        <div class="form-group col-sm-12">
+          <input id="address" type="text" name="address" class="form-control required" placeholder="{{ 'private.contact.address_placeholder' | translate }}">
+        </div>
+        <div class="form-group col-sm-12">
+          <input id="date" type="text" name="date" class="form-control required" placeholder="{{ 'private.contact.date_placeholder' | translate }}">
+        </div>
+        <div class="form-group col-sm-12">
+          <textarea id="message" name="message" class="form-control message" placeholder="{{ 'private.contact.message_placeholder' | translate }}"></textarea>
+        </div>
+        <div class="form-group col-sm-12">
+          <input type="submit" value="{{ 'private.contact.send' | translate }}" class="btn btn-lg btn-solid btn-block">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row" style="margin: 60px 0px 0px">
+    <div class="col-md-12 align-center">
+      <h3>{{ 'private.form.conclution' | translate }}</h3>
+    </div>
+  </div>
+</div>

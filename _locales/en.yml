@@ -88,8 +88,8 @@ en:
       telephone_placeholder: Phone
       email_placeholder: E-mail
       name_placeholder: Name
-      adress_placeholder: Pick up adress
-      calendar_placeholder: Day and hour
+      address_placeholder: Pick up address
+      date_placeholder: Day and hour
     contact-sent:
       sent_title: Your message was sent successfully
       sent_description: Thank you for contacting us!

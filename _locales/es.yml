@@ -84,8 +84,8 @@ es:
       telephone_placeholder: Teléfono
       email_placeholder: Correo electrónico
       name_placeholder: Nombre
-      adress_placeholder: Punto de recogida
-      calendar_placeholder: Día y hora
+      address_placeholder: Punto de recogida
+      date_placeholder: Día y hora
     contact-sent:
       sent_title: Su mensaje se ha enviado correctamente
       sent_description: Gracias por ponerse en contacte con nosotros!

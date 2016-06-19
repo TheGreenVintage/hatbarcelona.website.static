@@ -84,8 +84,8 @@ ca:
       telephone_placeholder: Telèfon
       email_placeholder: Correu electrònic
       name_placeholder: Nom
-      adress_placeholder: Punt de recollida
-      calendar_placeholder: Dia i hora
+      address_placeholder: Punt de recollida
+      date_placeholder: Dia i hora
     contact-sent:
       sent_title: El seu missatge s'ha enviat correctament
       sent_description: Gràcies per possar-se en contacte amb nosaltres!
