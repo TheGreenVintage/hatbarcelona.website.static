@@ -579,20 +579,8 @@ Startuply = {
         }
     },
 
-    //prettyphoto lightbox init
-    prettyPhotoInit: function () {
-        var _this = this;
-
-        if ( $('.portfolio[data-pretty^=\'prettyPhoto[port_gal]\']').length ) {
-            if ( typeof $.fn.prettyPhoto == 'function' ) {
-                $('.portfolio[data-pretty^=\'prettyPhoto[port_gal]\']').each(function () {
-                    $(this).prettyPhoto();
-                });
-
-            }else {
-                this.log( 'Can\'t find jQuery.prettyPhoto function' );
-            }
-        }
+    lightBoxInit: function () {
+        var gallery = $('.gallery a').simpleLightbox();
     },
 
     // count down timer
@@ -769,7 +757,7 @@ Startuply = {
 
         this.flexSliderInit();
 
-        this.prettyPhotoInit();
+        this.lightBoxInit();
 
         if ( $('.nav-tabs').length ) {
             $('.nav-tabs li:first-child a').trigger('click');
