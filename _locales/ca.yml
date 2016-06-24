@@ -2,7 +2,10 @@
 ---
 ca:
   locales:
-    en: Català
+    label: Idiomes
+    en: English
+    es: Español
+    ca: Català
   not_found:
     title: No trobat
     message: Recurs no trobat

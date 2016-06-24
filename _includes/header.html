@@ -20,6 +20,16 @@
           <li><a href="/{{ page.locale }}#gallery">{{ 'gallery.title' | translate }}</a></li>
           <li><a href="/{{ page.locale }}#footer">{{ 'contact.title' | translate }}</a></li>
         </ul>
+
+        <div class="dropdown" style="float: right; margin: 10px 30px;">
+          <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" style="color: white; border: 0;">{{ 'locales.label' | translate }}<span class="caret"><i class="fa fa-angle-down" style="color: white;"></i></span></button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li><a role="menuitem" tabindex="-1" href="/en">{{ 'locales.en' | translate }}</a></li>
+            <li><a role="menuitem" tabindex="-1" href="/es">{{ 'locales.es' | translate }}</a></li>
+            <li><a role="menuitem" tabindex="-1" href="/ca">{{ 'locales.ca' | translate }}</a></li>
+          </ul>
+        </div>
+
         <div class="navigation-bar navigation-bar-right navigation-call-to-action">
           {% assign private = 'alella.private' | section %}
           <a href="{{ private.permalink }}" class="btn btn-sm btn-outline-color base_clr_txt base_clr_bg base_clr_brd" style="display: none">{{ 'private.title' | translate }}</a>

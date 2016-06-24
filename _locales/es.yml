@@ -2,7 +2,10 @@
 ---
 es:
   locales:
-    en: Español
+    label: Idiomas
+    en: English
+    es: Español
+    ca: Català
   not_found:
     title: No encontrado
     message: Recurso no encontrado
