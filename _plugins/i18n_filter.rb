@@ -14,12 +14,18 @@ module Jekyll
       I18n.l input, :format => format
     end
 
-    def translate(input, highlight=true, linebreak=true)
+    def translate(input, interpolations=[], highlight=true, linebreak=true)
       locale = @context.registers[:page]['locale']
 
       load_translations
 
-      translation = I18n.t input, locale: locale
+      params = (interpolations || []).inject({}) do |memo, value|
+        memo["arg#{memo.size + 1}".to_sym] = value
+        memo
+      end
+      params.merge!(locale: locale)
+
+      translation = I18n.t input, params
 
       if highlight
         translation.gsub!(/\$([^$]+)\$/, '<span class="highlight">\1</span>')

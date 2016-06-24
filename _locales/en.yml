@@ -7,7 +7,7 @@ en:
     title: Not found
     message: Resource not found
   meta:
-    title: HAT Barcelona tour
+    title: HAT Barcelona tours
     description: Visit Catalonia with HAT Barcelona and discover hidden spots, unusual
       attractions, secret places, historical corners, unkown destinations
     keywords: tours alella hat barcelona wine
@@ -47,12 +47,18 @@ en:
       title_1: Days & Duration
       description_1: Flexible timings. 6 hours approx
       title_4: People
-      description_4: Max. 20
+      description_4: Up to 20 people
       title_2: Meeting Point
-      description_2: Pick-up and drop-off at your hotel
-      title_3: Languages available
-      description_3: English, French, German, Russian, Spanish
+      description_2: Pick-up and drop-off at your accommodation
+      title_3: Available languages
+      description_3: English, French, German, Russian, Italian, Spanish
     packages:
+      headers:
+        people: People
+        price: Prices
+        included: Included
+      from_people: From %{arg1} to %{arg2}
+      from_price: From %{arg1} €
       title: BOOKING & BEST PRICES (Price per person)
       description: 'As such prices will vary according to your personal requirements.
         The final price of your private tour will be determined by our tour planner
@@ -108,7 +114,7 @@ en:
   product:
     title: "$TAKE A CITY BREAK$ FROM BARCELONA TO VISIT ALELLA AND ITS NEIGHBORING
       WINERY"
-    description: "Alella is a small charming village located in the comarca of Maresme,
+    description: "Alella is a small charming village located in the Maresme region,
       between the Mediterranean Sea and the coastal mountain, just 15km away from
       Barcelona. The coastal town combines a thousand-year tradition of winemaking
       with architectural highlights from the ancient, Romanesque, Baroque and Modernist
@@ -136,7 +142,7 @@ en:
       a small production of wines made from mostly local grapes grown over thirteen
       hectares of land. You will visit the cellar and the vineyards. Finally you will
       taste four organic and high quality wines.
-    title_2: "$Modernist Walking Tour$"
+    title_2: "$Modernism Walking Tour$"
     description_2: This guided walking tour lets you explore a collection of public
       modernist art, architectural gems and luxury houses that add to the allure of
       this already beautiful village. Dig deep into the roots of the movement and

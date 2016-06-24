@@ -7,7 +7,7 @@ ca:
     title: No trobat
     message: Recurs no trobat
   meta:
-    title: Hat Barcelona tour
+    title: Hat Barcelona tours
     description: Visita Catalunya amb HAT Barcelona i descobreix llocs secrets, racons
       històrics i destinacions desconegudes
     keywords: tours alella hat barcelona wine
@@ -50,8 +50,14 @@ ca:
       title_2: Punt de trobada
       description_2: Servei de recollida i tornada al seu allotjament
       title_3: Idiomes disponibles
-      description_3: Castellà, Català, Anglès, Francès, Alemany i Rus
+      description_3: Castellà, Català, Anglès, Francès, Italià Alemany i Rus
     packages:
+      headers:
+        people: Persones
+        price: Preus
+        included: Inclòs
+      from_people: Des de %{arg1} a %{arg2}
+      from_price: Des de %{arg1} €
       title: RESERVES I PREUS (Per persona)
       description: 'El preu variarà en funció de les diferents necessitats. No obstant,
         en la següent taula pot veure els preus orientatius del nostre tour:'
@@ -134,12 +140,12 @@ ca:
       cultius ecològics. Visita guiada pel vinyer, pel celler, i finalment una degustació
       de quatre vins orgànics i d'alta qualitat.
     title_2: "$L'empremta del Modernisme$"
-    description_2: És un itinerari cultural que ofereix la possibilitat de fer un
+    description_2: "És un itinerari cultural que ofereix la possibilitat de fer un
       recorregut per la història del segle XIX i principis del XX. Arquitectes com
       Jeroni Martorell o Josep Puig i Cadafalch van desenvolupar alguns dels seus
       projectes en aquest bonic poble. Endinsant-nos en les formes i els colors de
       l'arquitectura alellenca podrem extreure algunes de les característiques generals
-      d'aquest moviment.
+      d'aquest moviment."
     title_3: "$Mercat Local$"
     description_3: "Durant aquest recorregut a peu farem una parada al mercat local
       d'Alella, on coneixerà els productes locals de la comarca. \nEl Maresme compta

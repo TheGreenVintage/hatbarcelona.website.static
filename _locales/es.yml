@@ -7,8 +7,8 @@ es:
     title: No encontrado
     message: Recurso no encontrado
   meta:
-    title: HAT Barcelona tour
-    description: Visita Cataluña con HAT Barcelona y descubre lugares secretos, rincones
+    title: HAT Barcelona tours
+    description: Visite Cataluña con HAT Barcelona y descubra lugares secretos, rincones
       históricos y destinos desconocidos
     keywords: tours alella hat barcelona wine
   cookies:
@@ -50,8 +50,14 @@ es:
       title_2: Punto de encuentro
       description_2: Servicio de recogida ida y vuelta (en tu alojamiento)
       title_3: Idiomas disponibles
-      description_3: Español, Catalán, Inglés, Francés, Alemán y Ruso
+      description_3: Español, Catalán, Inglés, Francés, Italiano, Alemán y Ruso
     packages:
+      headers:
+        people: Personas
+        price: Precios
+        included: Incluye
+      from_people: Desde %{arg1} a %{arg2}
+      from_price: Desde %{arg1} €
       title: RESERVAS Y PRECIOS (Por persona)
       description: 'En cuanto al precio variará en función de las diferentes necesesidades.
         Sin embargo, en la siguiente tabla puede ver los precios orientativos de nuestro
