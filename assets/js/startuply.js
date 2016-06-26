@@ -13,6 +13,31 @@ var Startuply;
         Startuply.init();
     });
 
+    $(document).on('ready', function () {
+        $('form#contact-form').submit(function(event) {
+          var formData = {
+            name:    $('input[name=name]').val(),
+            email:   $('input[name=email]').val(),
+            phone:   $('input[name=phone]').val(),
+            address: $('input[name=address]').val(),
+            date:    $('input[name=date]').val(),
+            message: $('input[name=message]').val()
+          };
+
+          $.ajax({
+            type: 'POST',
+            url: $(this).attr('action'),
+            data: formData,
+            dataType: 'json',
+            encode: true
+          }).done(function(data) {
+            $('#contact-success').show();
+          });
+
+          event.preventDefault();
+        });
+    });
+
 })( jQuery );
 
 
