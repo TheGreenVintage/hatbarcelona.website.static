@@ -4725,6 +4725,10 @@ td.cart-list-item-price {
   background-size: cover;
   background: #6f186c url("../img/background/low_poly_background.jpg") top center no-repeat;
 }
+.navigation-header .dropdown {
+  float: right;
+  margin: 10px 30px;
+}
 .navigation-header .navigation-brand {
   float: left;
   margin-right: 50px;
@@ -4981,6 +4985,9 @@ header {
   left: 0;
   right: 0;
   z-index: 200;
+}
+.fixed-menu .dropdown {
+  display: none;
 }
 .fixed-menu .background-header {
   background-color: #ffffff;
