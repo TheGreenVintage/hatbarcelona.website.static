@@ -126,7 +126,7 @@ ca:
     button: COMPRA ARA!
   icone:
     title_1: Dies i duració
-    description_1: Dimarts i dijous. 6 hores aprox
+    description_1: Dimarts, dimecres i dijous. 6 hores aprox
     title_4: Persones
     description_4: Màx. 20
     title_2: Punt de trobada
@@ -143,12 +143,12 @@ ca:
       cultius ecològics. Visita guiada pel vinyer, pel celler, i finalment una degustació
       de quatre vins orgànics i d'alta qualitat.
     title_2: "$L'empremta del Modernisme$"
-    description_2: "És un itinerari cultural que ofereix la possibilitat de fer un
+    description_2: És un itinerari cultural que ofereix la possibilitat de fer un
       recorregut per la història del segle XIX i principis del XX. Arquitectes com
       Jeroni Martorell o Josep Puig i Cadafalch van desenvolupar alguns dels seus
       projectes en aquest bonic poble. Endinsant-nos en les formes i els colors de
       l'arquitectura alellenca podrem extreure algunes de les característiques generals
-      d'aquest moviment."
+      d'aquest moviment.
     title_3: "$Mercat Local$"
     description_3: "Durant aquest recorregut a peu farem una parada al mercat local
       d'Alella, on coneixerà els productes locals de la comarca. \nEl Maresme compta
