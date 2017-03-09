@@ -15,9 +15,6 @@ locales:
 # Build settings
 markdown: kramdown
 
-author:
-  twitter: openfcsonline
-
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
