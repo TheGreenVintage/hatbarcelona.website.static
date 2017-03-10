@@ -1,0 +1,12 @@
+---
+permalink: /assets/css/style.min.css
+---
+
+{% capture styles %}
+  {% include assets/css/custom-animations.css %}
+  {% include assets/css/lib/font-awesome.min.css %}
+  {% include assets/css/style.css %}
+  {% include assets/css/simplelightbox.min.css %}
+{% endcapture %}
+
+{{ styles | scssify }}
