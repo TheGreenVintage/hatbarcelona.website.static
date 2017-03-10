@@ -3,6 +3,7 @@ permalink: /assets/js/scripts.min.js
 ---
 
 {% capture scripts %}
+  {% include assets/js/jquery-2.1.4.min.js %}
   {% include assets/js/bootstrap.min.js %}
   {% include assets/js/jquery.flexslider-min.js %}
   {% include assets/js/jquery.appear.js %}
