@@ -1,5 +1,5 @@
 i18n:
-	cd _locales && ../_tools/downloadi18n.sh
+	bundle exec rake i18n
 
 data:
-	cd _tools && ./downloadcsv.sh
+	bundle exec rake data
