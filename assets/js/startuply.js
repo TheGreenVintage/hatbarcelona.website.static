@@ -32,6 +32,7 @@ var Startuply;
             encode: true
           }).done(function(data) {
             $('#contact-success').show();
+            $('#contact-form').hide();
           });
 
           event.preventDefault();
