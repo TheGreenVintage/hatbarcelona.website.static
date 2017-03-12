@@ -3,6 +3,7 @@ permalink: /assets/css/style.min.css
 ---
 
 {% capture styles %}
+  {% include assets/css/lib/animate.css %}
   {% include assets/css/custom-animations.css %}
   {% include assets/css/lib/font-awesome.min.css %}
   {% include assets/css/lib/font-lineicons.css %}
