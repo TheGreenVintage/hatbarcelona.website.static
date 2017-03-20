@@ -5,7 +5,9 @@ $(document).ready(function() {
     var formData = {
       name:    $form.find('[name=name]').val(),
       email:   $form.find('[name=email]').val(),
-      subject: $form.find('[name=subject]').val(),
+      phone:   $form.find('[name=phone]').val(),
+      address: $form.find('[name=address]').val(),
+      date:    $form.find('[name=date]').val(),
       message: $form.find('[name=message]').val()
     };
 
