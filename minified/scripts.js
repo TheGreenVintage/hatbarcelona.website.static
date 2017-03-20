@@ -14,6 +14,7 @@ permalink: /assets/js/scripts.min.js
   {% include assets/js/toastr.min.js %}
   {% include assets/js/jquery.bxslider.min.js %}
   {% include assets/js/startuply.js %}
+  {% include assets/js/contact.js %}
 {% endcapture %}
 
 {{ scripts | uglify }}
