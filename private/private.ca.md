@@ -1,9 +1,9 @@
 ---
 layout: default
 locale: ca
-section: alella.private
+section: private
 body: landing-page
-permalink: /ca/tours/hat-alella-tour/private/
+permalink: /ca/tours/private/
 ---
 
 {% include private.html %}

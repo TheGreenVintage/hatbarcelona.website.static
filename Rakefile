@@ -33,7 +33,7 @@ def download(url, path)
 end
 
 def csv2yaml(file)
-  data = CSV.read(file, :headers => true)
+  data = CSV.read(file, :headers => true, :encoding => 'UTF-8')
 
   headers = data.headers
   master = headers.slice!(0)
@@ -46,7 +46,7 @@ def csv2yaml(file)
       key = translation[master]
       value = translation[header]
 
-      key_path = key.split('.')
+      key_path = key.split('.') rescue puts("Error in #{key}")
 
       hash = memo
 

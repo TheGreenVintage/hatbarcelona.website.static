@@ -13,7 +13,11 @@ ca:
     title: Hat Barcelona tours
     description: Visita Catalunya amb HAT Barcelona i descobreix llocs secrets, racons
       històrics i destinacions desconegudes
-    keywords: tours alella hat barcelona wine
+    keywords: tours, alella, hat, barcelona, vi, catalunya, espanya, experiència,
+      bodega, vermut, gastronomia, ruta del vi, DO Alella, vinyes, degustació, ecológic,
+      itinerari cultural, història, cultura, taberna catalana, tours privats, tours
+      regulars, experiències úniques, tapes, Maresme, itinerari, serralada del Litoral,
+      Jeroni Martorell, Josep Puig i Cadafalch
   cookies:
     title: Política de Cookies
     message: Aquesta web utilitza cookies per oferir-te una millor experiència i servei
@@ -28,12 +32,13 @@ ca:
     more_info: Més informació
   home:
     title: Inici
-    front_title: HAT Alella Tour
     front_description: Viu una experiència vinícola amb Denominació d'Origen!
     or_private: o consulta el nostre
     private_button: "$tour privat$"
-  tour:
-    title: Tour
+  regular_tours:
+    title: Tours regulars
+  private_tours:
+    title: Tours privats
   prices:
     title: Preus
   gallery:
@@ -98,6 +103,7 @@ ca:
     contact-sent:
       sent_title: El seu missatge s'ha enviat correctament
       sent_description: Gràcies per possar-se en contacte amb nosaltres!
+    button: Tours privats
   footer:
     all_rights_reserved: Tots els drets reservats
     contact_us: Contacte amb nosaltres
@@ -111,8 +117,8 @@ ca:
     phone_2: "(+34) 644 282 929"
     copyright: HAT Barcelona - 2017 -
   product:
-    title: Gaudeix d'un tour guiat a través dels vinyers i descobreix la petjada del
-      Modernisme a Alella
+    title: Gaudeix d'un tour guiat a través dels vinyers, descobreix la petjada del
+      Modernisme a Alella i la seva gastronomia
     description: 'Alella és una petita població situada a la comarca del Maresme,
       entre el mar Mediterrani i la serralada de la costa anomenada Serralada del
       Litoral. A més és conegut pels seus vinyers i la producció de vi, a només 15
@@ -151,9 +157,9 @@ ca:
       d'aquest moviment.
     title_3: "$Mercat Local$"
     description_3: "Durant aquest recorregut a peu farem una parada al mercat local
-      d'Alella, on coneixerà els productes locals de la comarca. \nEl Maresme compta
-      amb un microclima i unes condicions orogràfiques molt favorables per al cultiu
-      de la maduixa, el raïm, els pèsols i les síndries."
+      d'Alella, on degustrà diferents productes locals de la comarca. \nEl Maresme
+      compta amb un microclima i unes condicions orogràfiques molt favorables per
+      al cultiu de la maduixa, el raïm, els pèsols i les síndries."
     title_4: "$L'hora del Vermut$"
     description_4: El Vermut és més que una simple beguda, és una bella tradició.
       Gaudeixi d'un típic vermut amb una gran varietat de tapes a una autèntica taverna
@@ -182,3 +188,15 @@ ca:
   guide:
     description: "$Guies turístics professionals, amables i amb coneixements$ sobre
       la història, la cultura i la tradició de la regió"
+  regulars:
+    button: Tours Regulars
+  types:
+    title: ELS NOSTRES TOURS
+    regulars:
+      title: "$Tours Regulars$"
+      description: Uneix-te al nostre grup guiat, coneix a gent i gaudeixi de la nostra
+        experiència!
+    private:
+      title: "$Tours privats$"
+      description: HAT Barcelona ofereix tours vitivinícoles. Cada una de les nostres
+        experiències pot adaptar-se als vostres interessos i gustos.

@@ -13,7 +13,13 @@ en:
     title: HAT Barcelona tours
     description: Visit Catalonia with HAT Barcelona and discover hidden spots, unusual
       attractions, secret places, historical corners, unkown destinations
-    keywords: tours alella hat barcelona wine
+    keywords: tours, alella, hat, barcelona, wine, catalonia, spain, tourism, travel,
+      experience, tour, private, regular, wine tours, gastronomy, culture, guide,
+      transport, luxury, vip tours, private tours, regulars tours, organic wines,
+      winery, gourmet, vermouth, wine tasting, wine lovers, authenticity tour, wonderful
+      tour, wine experience, wine tourism, catalan experience, farmhouse, locally
+      grown products, heritage, near barcelona, catalan wines, wine-producing, barcelona
+      wine region
   cookies:
     title: Cookie policy
     message: This website uses cookies to ensure you get the best experience on our
@@ -29,12 +35,13 @@ en:
     more_info: More information
   home:
     title: Home
-    front_title: Authentic Catalan Experience
-    front_description: Live a 19th century experience in Alella, near Barcelona
+    front_description: Enjoy our wine experience just 20 minutes from Barcelona
     or_private: or check our
     private_button: "$private tour$"
-  tour:
-    title: Tour
+  regular_tours:
+    title: Regular Tours
+  private_tours:
+    title: Private Tours
   prices:
     title: Prices
   gallery:
@@ -102,6 +109,7 @@ en:
     contact-sent:
       sent_title: Your message was sent successfully
       sent_description: Thank you for contacting us!
+    button: Private Tours
   footer:
     all_rights_reserved: All rights reserved
     contact_us: Contact us
@@ -184,3 +192,15 @@ en:
   guide:
     description: "$Professional, friendly, knowledgeable$ tour $guides$ will lead
       you through the most beautiful highlights and secrets spots of the city"
+  regulars:
+    button: Regular Tours
+  types:
+    title: OUR TOURS
+    regulars:
+      title: "$Regular Tours$"
+      description: Enjoy small group travel, meet new friends, and explore the perfect
+        blend of outdoor activities and cultural highlights!
+    private:
+      title: "$Private Tours$"
+      description: HAT Barcelona offers VIP wine tours. Browse our tour 'suggestions'
+        each tour can be customized just for you!
