@@ -15,11 +15,11 @@
       <div class="navigation-navbar collapsed">
         <ul class="navigation-bar navigation-bar-left">
           {% assign regular = 'regular.types' | section %}
-          {% assign private = 'private' | section %}
+          {% assign private = 'private.types' | section %}
 
           <li><a href="/{{ page.locale }}">{{ 'home.title' | translate }}</a></li>
           <li><a class="{% if page.section == 'regular.types' %}hightlight{% endif %}" href="{{ regular.permalink }}">{{ 'regular_tours.title' | translate }}</a></li>
-          <li><a class="{% if page.section == 'private' %}hightlight{% endif %}" href="{{ private.permalink }}">{{ 'private_tours.title' | translate }}</a></li>
+          <li><a class="{% if page.section == 'private.types' %}hightlight{% endif %}" href="{{ private.permalink }}">{{ 'private_tours.title' | translate }}</a></li>
           <li><a href="/{{ page.locale }}#gallery">{{ 'gallery.title' | translate }}</a></li>
           <li><a href="/{{ page.locale }}#footer">{{ 'contact.title' | translate }}</a></li>
         </ul>
