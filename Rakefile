@@ -6,7 +6,8 @@ I18N_FILE = "https://docs.google.com/spreadsheets/d/1ffD7Ef8Kp_lnAokk3Pc-s4CKpZU
 DATA_FILES = {
   packages: "https://docs.google.com/spreadsheets/d/1ffD7Ef8Kp_lnAokk3Pc-s4CKpZUJDLSod4YxXW9UIlA/pub?gid=551081751&single=true&output=csv",
   menus:    "https://docs.google.com/spreadsheets/d/1ffD7Ef8Kp_lnAokk3Pc-s4CKpZUJDLSod4YxXW9UIlA/pub?gid=1411098766&single=true&output=csv",
-  private:  "https://docs.google.com/spreadsheets/d/1ffD7Ef8Kp_lnAokk3Pc-s4CKpZUJDLSod4YxXW9UIlA/pub?gid=2104266518&single=true&output=csv",
+  private:  "https://docs.google.com/spreadsheets/d/1ffD7Ef8Kp_lnAokk3Pc-s4CKpZUJDLSod4YxXW9UIlA/pub?gid=1560876386&single=true&output=csv",
+  regulars: "https://docs.google.com/spreadsheets/d/1ffD7Ef8Kp_lnAokk3Pc-s4CKpZUJDLSod4YxXW9UIlA/pub?gid=752097460&single=true&output=csv",
 }
 
 task :i18n do
@@ -15,6 +16,8 @@ task :i18n do
   open(I18N_FILE) do |file|
     csv2yaml(file)
   end
+
+  puts 'Done!'
 end
 
 task :data do
@@ -46,6 +49,10 @@ def csv2yaml(file)
       key = translation[master]
       value = translation[header]
 
+      next unless key
+
+      puts("Processing #{key}...")
+
       key_path = key.split('.') rescue puts("Error in #{key}")
 
       hash = memo
@@ -53,7 +60,7 @@ def csv2yaml(file)
       loop do
 
         if key_path.length == 1
-          value.strip! rescue puts "Error in #{key_path}" # TODO: Handle errors
+          value.strip! rescue puts("Error in #{key_path}")
           value = YAML.load(value) if key_path.first.end_with? '_list'
 
           hash[key_path.first] = value
@@ -81,4 +88,3 @@ def csv2yaml(file)
     end
   end
 end
-

@@ -1,8 +1,8 @@
 <!-- Header -->
-<header class="{% if include.fixed %} fixed-menu{% endif %}">
+<header class="{% if include.fixed %} fixed-menu sticky-menu{% endif %}">
   <nav class="navigation navigation-header">
     <div class="container">
-        <div class="navigation-brand">
+        <div class="navigation-brand{% if include.breadcrumb %} navigation-breadcrumb{% endif %}">
           <div class="brand-logo">
             <a href="/{{ page.locale }}" class="logo"></a><a href="/{{ page.locale }}" class="logo logo-alt"></a>
           </div>
@@ -15,11 +15,13 @@
       <div class="navigation-navbar collapsed">
         <ul class="navigation-bar navigation-bar-left">
           {% assign regular = 'regular.types' | section %}
-          {% assign private = 'private' | section %}
+          {% assign private = 'private.types' | section %}
+          {% assign event = 'events' | section %}
 
-          <li><a href="/{{ page.locale }}">{{ 'home.title' | translate }}</a></li>
-          <li><a class="{% if page.section == 'regular.types' %}hightlight{% endif %}" href="{{ regular.permalink }}">{{ 'regular_tours.title' | translate }}</a></li>
-          <li><a class="{% if page.section == 'private' %}hightlight{% endif %}" href="{{ private.permalink }}">{{ 'private_tours.title' | translate }}</a></li>
+          <li class="{% if page.section == 'regular.types' %}active{% endif %}"><a href="{{ regular.permalink }}">{{ 'regular_tours.title' | translate }}</a></li>
+          <li class="{% if page.section == 'private.types' %}active{% endif %}"><a href="{{ private.permalink }}">{{ 'private_tours.title' | translate }}</a></li>
+          <li><a href="{{ event.permalink }}">{{ 'events.title' | translate }}</a></li>
+
           <li><a href="/{{ page.locale }}#gallery">{{ 'gallery.title' | translate }}</a></li>
           <li><a href="/{{ page.locale }}#footer">{{ 'contact.title' | translate }}</a></li>
         </ul>
@@ -33,9 +35,11 @@
           </ul>
         </div>
 
+        {% unless include.no_reserve %}
         <div class="navigation-bar navigation-bar-right navigation-call-to-action">
           <a href="https://www.eventbrite.co.uk/o/hat-barcelona-tours-11099973698" class="btn btn-sm btn-solid base_clr_bg" target="_blank">{{ 'packages.price_button' | translate }}</a>
         </div>
+        {% endunless %}
       </div>
     </div>
   </nav>

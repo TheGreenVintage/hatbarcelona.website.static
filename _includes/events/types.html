@@ -1,0 +1,26 @@
+<section class="section align-center dark-text">
+  <div class="container">
+
+    {% assign event_groups = '1,2,3,4,5,6' | split: ',' | in_groups_of: 2 %}
+    {% for event_group in event_groups %}
+    <div class="section-content row" style="margin-bottom: 60px;">
+      {% for event in event_group %}
+      <div class="col-sm-6">
+
+        {% assign event_key = 'events.type' | append: event %}
+        {% assign event_key_title = event_key | append: '.title' %}
+        {% assign event_key_description = event_key | append: '.description' %}
+
+        <img src="/assets/img/gallery/events/{{ event }}.jpg" class="img-responsive"  title="{{ event_key_title | translate: nil, false, false }}" alt="{{ event_key_title | translate: nil, false, false }}" />
+
+        <article>
+          <h3>{{ event_key_title | translate }}</h3>
+          <p class="sub-title medium">{{ event_key_description | translate }}</p>
+        </article>
+      </div>
+      {% endfor %}
+    </div> <!-- /row -->
+    {% endfor %}
+
+  </div>
+</section>

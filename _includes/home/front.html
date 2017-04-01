@@ -1,0 +1,16 @@
+<div id="home" class="light-text form-section form-section1 clearfix" style="min-height: 68vh">
+  <div class="container centered-block">
+    <div class="heading-block align-center">
+      <img src="/assets/img/logos/hat-3.png">
+      <h5 style="margin-bottom: 33px;">{{ 'home.front_description' | translate }}</h5>
+    </div>
+    <div class="align-center">
+      {% assign regulars = 'regular.types' | section %}
+      <a class="btn btn-lg btn-solid base_clr_bg" href="{{ regulars.permalink }}">{{ 'home.regulars.button' | translate }}</a>
+
+      {% assign types = 'private' | section %}
+      <a class="btn btn-lg btn-solid base_clr_bg" href="{{ private.permalink }}">{{ 'home.private.button' | translate }}</a>
+    </div>
+  </div>
+</div>
+

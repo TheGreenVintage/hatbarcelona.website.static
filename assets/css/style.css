@@ -4726,11 +4726,15 @@ td.cart-list-item-price {
 }
 .navigation-header .navigation-brand {
   float: left;
-  margin-right: 50px;
+  margin-right: 45px;
   margin-top: 10px;
 }
 .navigation-header .navigation-brand .brand-logo {
   width: 230px;
+  visibility: hidden;
+}
+.navigation-header .navigation-brand.navigation-breadcrumb .brand-logo {
+  visibility: visible;
 }
 .navigation-header .navigation-brand .brand-logo .logo {
   -webkit-background-size: contain;
@@ -4999,6 +5003,9 @@ header {
 .fixed-menu .navigation-header .btn.btn-outline:hover,
 .fixed-menu .navigation-header .btn.btn-outline:active {
   color: #ffffff;
+}
+.fixed-menu .navigation-header .navigation-brand .brand-logo {
+  visibility: visible;
 }
 .fixed-menu .navigation-header .navigation-brand .brand-logo .logo {
   display: none;
@@ -6121,7 +6128,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   padding: 0 25px;
 }
 .about-section {
-  padding: 60px 0 0;
+  padding: 60px 0;
 }
 .about-section .howitworks {
   font-size: 81px;

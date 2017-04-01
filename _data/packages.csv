@@ -1,5 +1,5 @@
-price,age,title_en,title_es,title_ca,included_en,included_es,included_ca
-98,,HAT Adults,HAT Adultos,HAT Adutls,"Transportation & guide
+key,price,age,title_en,title_es,title_ca,included_en,included_es,included_ca
+authentic,98,,HAT Adults,HAT Adultos,HAT Adutls,"Transportation & guide
 Winery visit & wine tasting
 Walking Modernist tour
 Visit local market
@@ -12,7 +12,7 @@ Celler + Tast de vins
 Itinerari Modernista
 Mercat local
 L'hora del Vermut"
-95,≥ 65 ,HAT Seniors ,HAT Seniors,HAT Seniors,"Transportation & guide
+authentic,95,≥ 65 ,HAT Seniors ,HAT Seniors,HAT Seniors,"Transportation & guide
 Winery visit & wine tasting
 Walking Modernist tour
 Visit local market
@@ -25,7 +25,7 @@ Celler + Tast de vins
 Itinerari Modernista
 Mercat local
 L'hora del Vermut"
-49,4 - 12 ,HAT Kids ,HAT Niños,HAT Nens,"Transportation
+authentic,49,4 - 12 ,HAT Kids ,HAT Niños,HAT Nens,"Transportation
 Local guide
 Walking Modernist tour
 Visit local market
@@ -38,3 +38,33 @@ Guia local
 Itinerari Modernista
 Mercat local
 Menu infantil"
+wine,48,,HAT Adults,HAT Adultos,HAT Adutls,"Local english speaking guide
+Transportation
+Guided visit at the winery
+Wine tasting (4 organic wines)","Guía local en inglés
+Transporte
+Visita guidada por la bodega
+Cata de vinos (4 vinos ecológicos)","Guia local en anglès
+Transport
+Visita guidada pel celler
+Cata de vins (4 vins ecològics)"
+wine,46,≥ 65 ,HAT Seniors ,HAT Seniors,HAT Seniors,"Local english speaking guide
+Transportation
+Guided visit at the winery
+Wine tasting (4 organic wines)","Guía local en inglés
+Transporte
+Visita guidada por la bodega
+Cata de vinos (4 vinos ecológicos)","Guia local en anglès
+Transport
+Visita guidada pel celler
+Cata de vins (4 vins ecològics)"
+wine,25,4 - 12 ,HAT Kids ,HAT Niños,HAT Nens,"Local english speaking guide
+Transportation
+Guided visit at the winery
+Wine tasting (4 organic wines)","Guía local en inglés
+Transporte
+Visita guidada por la bodega
+Cata de vinos (4 vinos ecológicos)","Guia local en anglès
+Transport
+Visita guidada pel celler
+Cata de vins (4 vins ecològics)"

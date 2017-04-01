@@ -1,0 +1,13 @@
+<section class="section product-section align-center dark-text animated" data-animation="fadeInUp" data-duration="500">
+  <div class="container">
+    <div class="row" style="margin-bottom: 30px">
+      <h2>{{ 'tour.details' | translate }}</h2>
+      <p>{{ page.tour | field: 'details' | newline_to_br }}</p>
+
+      {% if page.tour.menu == 'yes' %}
+        {% assign menu = 'alella.menu' | section %}
+        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ menu.permalink }}">{{ 'authentic.itinerary.button_4' | translate }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>

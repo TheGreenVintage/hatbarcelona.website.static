@@ -1,0 +1,21 @@
+---
+layout: default
+section: private
+---
+
+{% include header.html breadcrumb=true %}
+{% include front.html %}
+{% include icons.html %}
+{% include itinerary.html %}
+{% include gallery-tour.html %}
+
+{% assign details = page.tour | field: 'details' | strip_newlines %}
+{% if details != "" %}
+  {% include details.html %}
+{% endif %}
+
+{% include contact.html %}
+{% include logos.html %}
+{% include back-to-top.html %}
+
+{% include json-ld-product.html %}

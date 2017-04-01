@@ -1,0 +1,29 @@
+<section class="section align-center dark-text">
+  <div class="container">
+
+    {% assign regular_types = 'regular.types' | section %}
+    {% assign tour_groups = site.data.regulars | in_groups_of: 2 %}
+    {% for tour_group in tour_groups %}
+    <div class="section-content row" style="margin-bottom: 60px;">
+
+      {% for tour in tour_group %}
+      <div class="col-sm-6">
+
+        <a href="{{ regular_types.permalink }}{{ tour | field: 'title' | slugify }}">
+          {% assign filename = tour.photo1 %}
+          <img src="/assets/img/gallery/{{ filename }}" class="img-responsive"  title="{{ tour | field: 'title'}}" alt="{{ tour | field: 'title'}}" />
+        </a>
+
+        <article>
+          <h3>{{ tour | field: 'title'}}</h3>
+          <p class="sub-title medium">{{ tour | field: 'subtitle'}}</p>
+        </article>
+
+        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ regular_types.permalink }}{{ tour | field: 'title' | slugify }}">{{ 'generic.more_info' | translate }}</a>
+      </div>
+      {% endfor %}
+    </div> <!-- /row -->
+    {% endfor %}
+
+  </div>
+</section>

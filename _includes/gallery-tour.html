@@ -1,0 +1,19 @@
+<section id="gallery" class="section dark-text gallery-block">
+  <div class="container">
+    <div class="row gallery">
+      {% assign images = '1,2,3,4,5,6' | split: ','%}
+
+      {% for image in images %}
+
+      {% assign field = 'photo' | append: image %}
+      {% assign filename = page.tour[field] %}
+
+      <div class="col-md-4 col-sm-4 col-xs-6" style="margin-top: 30px">
+        <a href="/assets/img/gallery/{{ filename }}">
+          <img src="/assets/img/gallery/thumbnails/{{ filename }}" class="img-responsive" alt="thumb" />
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

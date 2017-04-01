@@ -620,7 +620,7 @@ Startuply = {
     unstickMenu: function () {
         var $header = $('header');
 
-        if ( $header.length && $header.is('.fixed-menu') ) {
+        if ( $header.length && $header.is('.fixed-menu') && !$header.is('.sticky-menu') ) {
             $header.removeClass('fixed-menu');
 
             this.log( 'Unstick menu' );

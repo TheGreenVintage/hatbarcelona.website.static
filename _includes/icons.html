@@ -5,28 +5,28 @@
         <article class="align-center">
           <i class="howitworks icon icon-seo-icons-31 highlight"></i>
           <span class="heading" style="text-transform: uppercase">{{ 'icone.title_1' | translate }}</span>
-          <p class="thin" >{{ 'icone.description_1' | translate }}</p>
+          <p class="thin">{{ page.tour | field: 'timing' }}</p>
         </article>
       </div>
       <div class="col-sm-3">
         <article class="align-center">
           <i class="howitworks icon icon-socialmedia-25 highlight"></i>
           <span class="heading" style="text-transform: uppercase">{{ 'icone.title_2' | translate }}</span>
-          <p class="thin" >{{ 'icone.description_2' | translate }}</p>
+          <p class="thin">{{ page.tour | field: 'meeting_point' }}</p>
         </article>
       </div>
       <div class="col-sm-3">
         <article class="align-center">
           <i class="howitworks icon icon-education-science-14 highlight"></i>
           <span class="heading" style="text-transform: uppercase">{{ 'icone.title_3' | translate }}</span>
-          <p class="thin" >{{ 'icone.description_3' | translate }}</p>
+          <p class="thin">{{ page.tour | field: 'languages' }}</p>
         </article>
       </div>
       <div class="col-sm-3">
         <article class="align-center">
           <i class="howitworks icon icon-faces-users-04 highlight"></i>
           <span class="heading" style="text-transform: uppercase">{{ 'icone.title_4' | translate }}</span>
-          <p class="thin" >{{ 'icone.description_4' | translate }}</p>
+          <p class="thin">{{ page.tour | field: 'up_to' }}</p>
         </article>
       </div>
     </div>
