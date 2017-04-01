@@ -9,112 +9,23 @@
 
 <section id="tour" class="section process-section align-center dark-text">
   <div class="container">
+
+    {% assign tour_groups = site.data.private | in_groups_of: 2 %}
+    {% for tour_group in tour_groups %}
+    <br/><br/>
     <div class="section-content row">
-      <br/><br/>
+      {% for tour in tour_group %}
       <div class="col-sm-6">
         <img src="/assets/img/features/content_image2.jpg" class="img-responsive" title="{{ 'itinerary.title_2' | translate: nil, false, false }}" alt="{{ 'itinerary.title_2' | translate: nil, false, false }}" />
-      </div>
-      <div class="col-sm-6 align-right">
-        <img src="/assets/img/features/content_image1.jpg" class="img-responsive" title="{{ 'itinerary.title_1' | translate: nil, false, false }}" alt="{{ 'itinerary.title_1' | translate: nil, false, false }}" />
-      </div>
-    </div>
-
-    <div class="section-content row">
-      <div class="col-sm-6 align-center">
         <article>
-          <h3>Auuutentic!!!</h3>
-          <p class="sub-title medium">{{ 'types.regulars.description' | translate }}</p>
+          <h3>{{ tour | field: 'title'}}</h3>
+          <p class="sub-title medium">{{ tour | field: 'subtitle'}}</p>
         </article>
+        <a class="btn btn-sm btn-solid base_clr_bg" href="/{{ page.locale}}/tours/private/{{ tour | field: 'title' | slugify }}">{{ 'generic.more_info' | translate }}</a>
       </div>
-      <div class="col-sm-6 align-center">
-        <article>
-          <h3>Wiiine!!!</h3>
-          <p class="sub-title medium">{{ 'types.private.description' | translate }}</p>
-        </article>
-      </div>
-    </div>
+      {% endfor %}
+    </div> <!-- /row -->
+    {% endfor %}
 
-    <div class="section-content row">
-      <div class="col-sm-6 align-center">
-        {% assign regular = 'regular.types' | section %}
-        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ regular.permalink }}">{{ 'generic.more_info' | translate }}</a>
-      </div>
-      <div class="col-sm-6 align-center">
-        {% assign private = 'private' | section %}
-        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ private.permalink }}">{{ 'generic.more_info' | translate }}</a>
-      </div>
-    </div>
-
-    <div class="section-content row">
-      <br/><br/>
-      <div class="col-sm-6">
-        <img src="/assets/img/features/content_image2.jpg" class="img-responsive" title="{{ 'itinerary.title_2' | translate: nil, false, false }}" alt="{{ 'itinerary.title_2' | translate: nil, false, false }}" />
-      </div>
-      <div class="col-sm-6 align-right">
-        <img src="/assets/img/features/content_image1.jpg" class="img-responsive" title="{{ 'itinerary.title_1' | translate: nil, false, false }}" alt="{{ 'itinerary.title_1' | translate: nil, false, false }}" />
-      </div>
-    </div>
-
-    <div class="section-content row">
-      <div class="col-sm-6 align-center">
-        <article>
-          <h3>Vermouth</h3>
-          <p class="sub-title medium">{{ 'types.regulars.description' | translate }}</p>
-        </article>
-      </div>
-      <div class="col-sm-6 align-center">
-        <article>
-          <h3>Wineries!!!</h3>
-          <p class="sub-title medium">{{ 'types.private.description' | translate }}</p>
-        </article>
-      </div>
-    </div>
-
-    <div class="section-content row">
-      <div class="col-sm-6 align-center">
-        {% assign regular = 'regular.types' | section %}
-        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ regular.permalink }}">{{ 'generic.more_info' | translate }}</a>
-      </div>
-      <div class="col-sm-6 align-center">
-        {% assign private = 'private' | section %}
-        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ private.permalink }}">{{ 'generic.more_info' | translate }}</a>
-      </div>
-    </div>
-
-    <div class="section-content row">
-      <br/><br/>
-      <div class="col-sm-6">
-        <img src="/assets/img/features/content_image2.jpg" class="img-responsive" title="{{ 'itinerary.title_2' | translate: nil, false, false }}" alt="{{ 'itinerary.title_2' | translate: nil, false, false }}" />
-      </div>
-      <div class="col-sm-6 align-right">
-        <img src="/assets/img/features/content_image1.jpg" class="img-responsive" title="{{ 'itinerary.title_1' | translate: nil, false, false }}" alt="{{ 'itinerary.title_1' | translate: nil, false, false }}" />
-      </div>
-    </div>
-
-    <div class="section-content row">
-      <div class="col-sm-6 align-center">
-        <article>
-          <h3>Shopping!!!</h3>
-          <p class="sub-title medium">{{ 'types.regulars.description' | translate }}</p>
-        </article>
-      </div>
-      <div class="col-sm-6 align-center">
-        <article>
-          <h3>Eventos!!!</h3>
-          <p class="sub-title medium">{{ 'types.private.description' | translate }}</p>
-        </article>
-      </div>
-    </div>
-
-    <div class="section-content row">
-      <div class="col-sm-6 align-center">
-        {% assign regular = 'regular.types' | section %}
-        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ regular.permalink }}">{{ 'generic.more_info' | translate }}</a>
-      </div>
-      <div class="col-sm-6 align-center">
-        {% assign private = 'private' | section %}
-        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ private.permalink }}">{{ 'generic.more_info' | translate }}</a>
-      </div>
-    </div>
   </div>
 </section>

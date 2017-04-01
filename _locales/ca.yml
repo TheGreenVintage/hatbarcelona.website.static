@@ -35,6 +35,22 @@ ca:
     front_description: Viu una experiència vinícola amb Denominació d'Origen!
     or_private: o consulta el nostre
     private_button: "$tour privat$"
+    front:
+      title: GAUDEIX D'UN TOUR GUIAT A TRAVÉS DELS VINYERS, DESCOBREIX LA PETJADA
+        DEL MODERNISME A ALELLA I LA SEVA GASTRONOMIA
+      description: 'Alella és una petita població situada a la comarca del Maresme,
+        entre el mar Mediterrani i la serralada de la costa anomenada Serralada del
+        Litoral. A més és conegut pels seus vinyers i la producció de vi, a només
+        15 km de Barcelona. Amb aquest Tour podrà descobrir com vivia la burgesia
+        catalana entre els segles XIX i XX, i que encara conserva un imponent patrimoni
+        modernista i manté viva la seva identitat cultural. El municipi vinícola dóna
+        nom a una de les denominacions d''origen més petites i antigues de la península:
+        La denominació d''origen Alella.'
+    regulars:
+      button: Tours Regulars
+    private:
+      button: Tours privats
+    button: COMPRA ARA!
   regular_tours:
     title: Tours regulars
   private_tours:
@@ -47,31 +63,6 @@ ca:
     title: Contacte
   private:
     title: Tour privat
-    home:
-      front_title: HAT Alella Tour
-      front_description: Viu una experiència vinícola amb Denominació d'Origen!
-    icone:
-      title_1: Dies i duració
-      description_1: Tots els dies de la setmana. 6 hores aprox
-      title_4: Persones
-      description_4: Màx. 20
-      title_2: Punt de trobada
-      description_2: Servei de recollida i tornada al seu allotjament
-      title_3: Idiomes disponibles
-      description_3: Castellà, Català, Anglès, Francès, Italià Alemany i Rus
-    packages:
-      headers:
-        people: Persones
-        price: Preus
-        included: Inclòs
-      from_people: Des de %{arg1} a %{arg2}
-      from_price: Des de %{arg1} €
-      title: RESERVES I PREUS (Per persona)
-      description: 'El preu variarà en funció de les diferents necessitats. No obstant,
-        en la següent taula pot veure els preus orientatius del nostre tour:'
-    guide:
-      description: "$Guies turístics professionals, amables i amb coneixements$ sobre
-        la història, la cultura i la tradició de la regió"
     form:
       title: No deixis escapar aquesta oportunitat!
       description: Aquest tour es pot personalitzar segons les seves necessitats o
@@ -103,7 +94,6 @@ ca:
     contact-sent:
       sent_title: El seu missatge s'ha enviat correctament
       sent_description: Gràcies per possar-se en contacte amb nosaltres!
-    button: Tours privats
   footer:
     all_rights_reserved: Tots els drets reservats
     contact_us: Contacte amb nosaltres
@@ -116,56 +106,8 @@ ca:
     phone_1: "(+34) 679 400 576"
     phone_2: "(+34) 644 282 929"
     copyright: HAT Barcelona - 2017 -
-  product:
-    title: Gaudeix d'un tour guiat a través dels vinyers, descobreix la petjada del
-      Modernisme a Alella i la seva gastronomia
-    description: 'Alella és una petita població situada a la comarca del Maresme,
-      entre el mar Mediterrani i la serralada de la costa anomenada Serralada del
-      Litoral. A més és conegut pels seus vinyers i la producció de vi, a només 15
-      km de Barcelona. Amb aquest Tour podrà descobrir com vivia la burgesia catalana
-      entre els segles XIX i XX, i que encara conserva un imponent patrimoni modernista
-      i manté viva la seva identitat cultural. El municipi vinícola dóna nom a una
-      de les denominacions d''origen més petites i antigues de la península: La denominació
-      d''origen Alella.'
-    slogan: "$HAT$ Barcelona ofereix un tour per als amants de la cultura i pels qui
-      vulguin desconnectar de l'enrenou de la ciutat"
-    button: COMPRA ARA!
-  icone:
-    title_1: Dies i duració
-    description_1: Dimarts, dimecres i dijous. 6 hores aprox
-    title_4: Persones
-    description_4: Màx. 20
-    title_2: Punt de trobada
-    description_2: Plaça de Catalunya a les 9.30
-    title_3: Idiomes disponibles
-    description_3: Anglès
-  itinerary:
-    line:
-      title: Itinerari
-      subtitle: Tour amb gran valor històric i cultural
-    title_1: "$Visita al celler, vinyes i tast de vins$"
-    description_1: La primera activitat es durà a terme en una típica masia del segle
-      XIV, envoltada de vinyers. Disposen de 13 hectàrees de vinyers de 25 anys, amb
-      cultius ecològics. Visita guiada pel vinyer, pel celler, i finalment una degustació
-      de quatre vins orgànics i d'alta qualitat.
-    title_2: "$L'empremta del Modernisme$"
-    description_2: És un itinerari cultural que ofereix la possibilitat de fer un
-      recorregut per la història del segle XIX i principis del XX. Arquitectes com
-      Jeroni Martorell o Josep Puig i Cadafalch van desenvolupar alguns dels seus
-      projectes en aquest bonic poble. Endinsant-nos en les formes i els colors de
-      l'arquitectura alellenca podrem extreure algunes de les característiques generals
-      d'aquest moviment.
-    title_3: "$Mercat Local$"
-    description_3: "Durant aquest recorregut a peu farem una parada al mercat local
-      d'Alella, on degustrà diferents productes locals de la comarca. \nEl Maresme
-      compta amb un microclima i unes condicions orogràfiques molt favorables per
-      al cultiu de la maduixa, el raïm, els pèsols i les síndries."
-    title_4: "$L'hora del Vermut$"
-    description_4: El Vermut és més que una simple beguda, és una bella tradició.
-      Gaudeixi d'un típic vermut amb una gran varietat de tapes a una autèntica taverna
-      catalana, va obrir les seves portes fa 27 anys i és un referent en el preciós
-      poble d'Alella i els seus voltants.
-    button_4: MENÚ
+  tour:
+    details: DETALLS
   updates:
     line:
       title: Butlletí informatiu
@@ -178,18 +120,21 @@ ca:
     description: Amb només 3 clics pots fer la teva reserva amb el millor preu garantit
     price_vat: IVA INCLÒS
     price_button: Reserva ara!
+  regulars:
+    slogan: "$HAT$ Barcelona ofereix un tour per als amants de la cultura i pels qui
+      vulguin desconnectar de l'enrenou de la ciutat"
   menu:
     adults:
       title: Menú
   map:
-    title: Recorda el nostre punt de trobada
-    description: Plaça de Catalunya davant de Hard Rock Cafè. Hauran de buscar un
-      barret de color taronja
+    title: Recorda el nostre punt de trobada - Hauran de buscar un barret de color
+      taronja
+    description: 'Plaça de Catalunya, 21 (davant del Hard Rock Cafè). Metro: L1 i
+      L3, parada Catalunya. Bus: 16, 17, 41, 42, 55 i 141. Rodalies Renfe i FGC: parada
+      pl. Catalunya.'
   guide:
     description: "$Guies turístics professionals, amables i amb coneixements$ sobre
       la història, la cultura i la tradició de la regió"
-  regulars:
-    button: Tours Regulars
   types:
     title: ELS NOSTRES TOURS
     regulars:
@@ -200,3 +145,36 @@ ca:
       title: "$Tours privats$"
       description: HAT Barcelona ofereix tours vitivinícoles. Cada una de les nostres
         experiències pot adaptar-se als vostres interessos i gustos.
+  icone:
+    title_1: Dies i duració
+    title_2: Punt de trobada
+    title_3: Idiomes disponibles
+    title_4: Persones
+  authentic:
+    itinerary:
+      line:
+        title: Itinerari
+        subtitle: Tour amb gran valor històric i cultural
+      title_1: "$Visita al celler, vinyes i tast de vins$"
+      description_1: La primera activitat es durà a terme en una típica masia del
+        segle XIV, envoltada de vinyers. Disposen de 13 hectàrees de vinyers de 25
+        anys, amb cultius ecològics. Visita guiada pel vinyer, pel celler, i finalment
+        una degustació de quatre vins orgànics i d'alta qualitat.
+      title_2: "$L'empremta del Modernisme$"
+      description_2: És un itinerari cultural que ofereix la possibilitat de fer un
+        recorregut per la història del segle XIX i principis del XX. Arquitectes com
+        Jeroni Martorell o Josep Puig i Cadafalch van desenvolupar alguns dels seus
+        projectes en aquest bonic poble. Endinsant-nos en les formes i els colors
+        de l'arquitectura alellenca podrem extreure algunes de les característiques
+        generals d'aquest moviment.
+      title_3: "$Mercat Local$"
+      description_3: "Durant aquest recorregut a peu farem una parada al mercat local
+        d'Alella, on degustrà diferents productes locals de la comarca. \nEl Maresme
+        compta amb un microclima i unes condicions orogràfiques molt favorables per
+        al cultiu de la maduixa, el raïm, els pèsols i les síndries."
+      title_4: "$L'hora del Vermut$"
+      description_4: El Vermut és més que una simple beguda, és una bella tradició.
+        Gaudeixi d'un típic vermut amb una gran varietat de tapes a una autèntica
+        taverna catalana, va obrir les seves portes fa 27 anys i és un referent en
+        el preciós poble d'Alella i els seus voltants.
+      button_4: MENÚ

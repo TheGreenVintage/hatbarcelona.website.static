@@ -38,6 +38,20 @@ en:
     front_description: Enjoy our wine experience just 20 minutes from Barcelona
     or_private: or check our
     private_button: "$private tour$"
+    front:
+      title: "$TAKE A CITY BREAK$ FROM BARCELONA TO VISIT ALELLA AND ITS NEIGHBORING
+        WINERY"
+      description: "Alella is a small charming village located in the Maresme region,
+        between the Mediterranean Sea and the coastal mountain, just 15km away from
+        Barcelona. The coastal town combines a thousand-year tradition of winemaking
+        with architectural highlights from the ancient, Romanesque, Baroque and Modernist
+        periods. \n\nThis wonderful tour will provide knowledgement about Catalan
+        history, culture, gastronomy and it is perfect to be close to local people."
+    regulars:
+      button: Regular Tours
+    private:
+      button: Private Tours
+    button: BOOK NOW!
   regular_tours:
     title: Regular Tours
   private_tours:
@@ -50,33 +64,6 @@ en:
     title: Contact
   private:
     title: Private tour
-    home:
-      front_title: Authentic Catalan Experience
-      front_description: Live a 19th century experience in Alella, near Barcelona
-    icone:
-      title_1: Days & Duration
-      description_1: Flexible timings. 6 hours approx
-      title_4: People
-      description_4: Up to 20 people
-      title_2: Meeting Point
-      description_2: Pick-up and drop-off at your accommodation
-      title_3: Available languages
-      description_3: English, French, German, Russian, Italian, Spanish
-    packages:
-      headers:
-        people: People
-        price: Prices
-        included: Included
-      from_people: From %{arg1} to %{arg2}
-      from_price: From %{arg1} €
-      title: BOOKING & BEST PRICES (Price per person)
-      description: 'As such prices will vary according to your personal requirements.
-        The final price of your private tour will be determined by our tour planner
-        once we’ve finalised a perfect itinerary to suit you. However, just to give
-        you a general idea of what price to expect take a look at the following table:'
-    guide:
-      description: "$Professional, friendly, knowledgeable$ tour $guides$ will lead
-        you through the most beautiful highlights and secrets spots of the city"
     form:
       title: Don't miss your opportunity
       description: We will be happy to customize your visit following your experiences
@@ -109,11 +96,10 @@ en:
     contact-sent:
       sent_title: Your message was sent successfully
       sent_description: Thank you for contacting us!
-    button: Private Tours
   footer:
     all_rights_reserved: All rights reserved
     contact_us: Contact us
-    adress: Carrer de Casp, 79 Loft
+    adress: Carrer de Casp, 79 Sobreàtic
     location: Barcelona, 08013
     follow: Follow Us
     email: bookings@hatbarcelona.com
@@ -122,52 +108,8 @@ en:
     phone_1: "(+34) 679 400 576"
     phone_2: "(+34) 644 282 929"
     copyright: HAT Barcelona - 2017 -
-  product:
-    title: "$TAKE A CITY BREAK$ FROM BARCELONA TO VISIT ALELLA AND ITS NEIGHBORING
-      WINERY"
-    description: "Alella is a small charming village located in the Maresme region,
-      between the Mediterranean Sea and the coastal mountain, just 15km away from
-      Barcelona. The coastal town combines a thousand-year tradition of winemaking
-      with architectural highlights from the ancient, Romanesque, Baroque and Modernist
-      periods. \n\nThis wonderful tour will provide knowledgement about Catalan history,
-      culture, gastronomy and it is perfect to be close to local people."
-    slogan: "$HAT$ Barcelona offers you the ideal experience for the nature-loving
-      people that needs a quick recharge from the hustle-and-bustle of the city!"
-    button: BOOK NOW!
-  icone:
-    title_1: Days & Duration
-    description_1: Tuesday, Wednesday and Thursday. 6 hours approx
-    title_4: People
-    description_4: Max. 20
-    title_2: Meeting Point
-    description_2: Catalonia Square at 9.30 am
-    title_3: Available languages
-    description_3: English
-  itinerary:
-    line:
-      title: Itinerary
-      subtitle: History & Authenticity Tour
-    title_1: "$Visit the winery, vineyard and wine tasting$"
-    description_1: The first activity will be done in a typical farmhouse of the 14th
-      century, surrounded by vineyards. Is a small, family-run winery that offers
-      a small production of wines made from mostly local grapes grown over thirteen
-      hectares of land. You will visit the cellar and the vineyards. Finally you will
-      taste four organic and high quality wines.
-    title_2: "$Modernism Walking Tour$"
-    description_2: This guided walking tour lets you explore a collection of public
-      modernist art, architectural gems and luxury houses that add to the allure of
-      this already beautiful village. Dig deep into the roots of the movement and
-      explore the social, political and cultural issues.
-    title_3: "$Local Market$"
-    description_3: |-
-      During this walking tour we ‘ll make a stop at the Local Market of Alella, which opened its doors in 1934, you will learn about locally grown products, get to know some of the vendors who have been there for years.
-      This casual stop is for you to savour typical gastronomic heritage from a local perspective.
-    title_4: "$Vermouth Time$"
-    description_4: "Vermouth is more than a simple drink, it is a beautiful tradition.
-      Enjoy a typical Spanish vermouth and tapas in a truly authentic Catalan Tavern,
-      which opened its doors 27 years ago. \nDiscover the tavern that has become reference
-      as a traditional place to take vermouth in the middle of this special village."
-    button_4: MENU
+  tour:
+    details: DETAILS
   updates:
     line:
       title: Newsletter
@@ -182,18 +124,20 @@ en:
       look!
     price_vat: VAT Included
     price_button: Book now!
+  regulars:
+    slogan: "$HAT$ Barcelona offers you the ideal experience for the nature-loving
+      people that needs a quick recharge from the hustle-and-bustle of the city!"
   menu:
     adults:
       title: Menu
   map:
-    title: Remember our Meeting Point
-    description: Catalonia Square in front of Hard Rock Cafe at 9.30 am. There will
-      be someone wearing an orange hat
+    title: Remember our Meeting Point - There will be someone wearing an orange hat
+    description: 'Catalonia Square in front of Hard Rock Cafe at 9.30 am. Metro: L1
+      and L3, Catalunya stop. Bus: 16, 17, 41, 42, 55 and 141.Rodalies Renfe and FGC:
+      Catalunya stop.'
   guide:
     description: "$Professional, friendly, knowledgeable$ tour $guides$ will lead
       you through the most beautiful highlights and secrets spots of the city"
-  regulars:
-    button: Regular Tours
   types:
     title: OUR TOURS
     regulars:
@@ -204,3 +148,35 @@ en:
       title: "$Private Tours$"
       description: HAT Barcelona offers VIP wine tours. Browse our tour 'suggestions'
         each tour can be customized just for you!
+  icone:
+    title_1: Days & Duration
+    title_2: Meeting Point
+    title_3: Available languages
+    title_4: People
+  authentic:
+    itinerary:
+      line:
+        title: Itinerary
+        subtitle: History & Authenticity Tour
+      title_1: "$Visit the winery, vineyard and wine tasting$"
+      description_1: The first activity will be done in a typical farmhouse of the
+        14th century, surrounded by vineyards. Is a small, family-run winery that
+        offers a small production of wines made from mostly local grapes grown over
+        thirteen hectares of land. You will visit the cellar and the vineyards. Finally
+        you will taste four organic and high quality wines.
+      title_2: "$Modernism Walking Tour$"
+      description_2: This guided walking tour lets you explore a collection of public
+        modernist art, architectural gems and luxury houses that add to the allure
+        of this already beautiful village. Dig deep into the roots of the movement
+        and explore the social, political and cultural issues.
+      title_3: "$Local Market$"
+      description_3: |-
+        During this walking tour we ‘ll make a stop at the Local Market of Alella, which opened its doors in 1934, you will learn about locally grown products, get to know some of the vendors who have been there for years.
+        This casual stop is for you to savour typical gastronomic heritage from a local perspective.
+      title_4: "$Vermouth Time$"
+      description_4: "Vermouth is more than a simple drink, it is a beautiful tradition.
+        Enjoy a typical Spanish vermouth and tapas in a truly authentic Catalan Tavern,
+        which opened its doors 27 years ago. \nDiscover the tavern that has become
+        reference as a traditional place to take vermouth in the middle of this special
+        village."
+      button_4: MENU

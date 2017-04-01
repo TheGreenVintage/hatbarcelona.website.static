@@ -6,7 +6,8 @@
     </div>
     <div class="section-content row">
 
-      {% for package in site.data.packages %}
+      {% assign packages = site.data.packages | where: 'key', include.type %}
+      {% for package in packages %}
       <div class="col-sm-4">
         <div class="package-column">
           <div class="package-title">

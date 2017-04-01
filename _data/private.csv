@@ -1,40 +1,207 @@
-price,from_people,to_people,included_en,included_es,included_ca
-69,1,6,"Transportation & guide
-Winery visit & wine tasting
-Walking Modernist tour
-Visit local market
-Vermouth time","Transporte y guía local
-Bodega + Cata de vinos
-Itinerario Modernista
-Mercado local
-La hora del Vermut","Transport i guia local
-Celler + Tast de vins
-Itinerari Modernista
-Mercat local
-L'hora del Vermut"
-65,7,14,"Transportation & guide
-Winery visit & wine tasting
-Walking Modernist tour
-Visit local market
-Vermouth time","Transporte y guía local
-Bodega + Cata de vinos
-Itinerario Modernista
-Mercado local
-La hora del Vermut","Transport i guia local
-Celler + Tast de vins
-Itinerari Modernista
-Mercat local
-L'hora del Vermut"
-55,15,20,"Transportation & guide
-Winery visit & wine tasting
-Walking Modernist tour
-Visit local market
-Vermouth time","Transporte y guía local
-Bodega + Cata de vinos
-Itinerario Modernista
-Mercado local
-La hora del Vermut","Transport i guia local
-Celler + Tast de vins
-Itinerari Modernista
-Mercat local
-L'hora del Vermut"
+key,title_en,title_es,title_ca,subtitle_en,subtitle_es,subtitle_ca,description_en,description_es,description_ca,details_en,details_es,details_ca,timing_en,timing_es,timing_ca,meeting_point_en,meeting_point_es,meeting_point_ca,up_to_en,up_to_es,up_to_ca,languages_en,languages_es,languages_ca
+authentic,Authentic Catalan Experience,HAT Alella Tour,HAT Alella Tour,"Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.",,,,"Pick-up and drop-off at your accommodation
+Please arrive 10 minuts before the tour commences.
+There will be someone holding a bright orange hat.
+It is important to wear comfortable shoes.
+Small groups of up to 20 people.
+A menu for vegetarians and/or people with special dietary requirements is available.","Recogida en punto de encuentro a concretar. Incluye viaje de ida y retorno
+Es necesario presentarse 10 minutos antes del inicio de la visita.
+El guía llevará un sombrero naranja.
+Es importante llevar zapatos cómodos.
+Grupos reducidos de máximo 20 personas.
+Disponible menú para vegetarianos y / o personas con necesidades dietéticas especiales.","Recollida al punt de trobada a concretar. Inclou viatge d’anada i tornada
+És necessari presentar-se 10 minuts abans de l'inici de la visita.
+El guia portarà un barret taronja.
+És important portar sabates còmodes.
+Grups reduïts de màxim 20 persones.
+Disponible menú per a vegetarians i / o persones amb necessitats dietètiques especials.","
+Flexible timings. 6 hours approx",Todos los días de la semana. 6 horas aprox,Tots els dies de la setmana. 6 hores aprox,Pick-up and drop-off at your accommodation,Servicio de recogida ida y vuelta (a concretar),Servei de recollida i tornada (a concretar),Up to 20 people,Máx. 20,Màx. 20,"English, Spanish, Italian, French, Portuguese, German and Russian languages","
+Español, Catalán, Inglés, Francés, Portugués, Italiano, Alemán y Ruso","Castellà, Català, Anglès, Francès, Portuguès, Italià, Alemany i Rus"
+wine,Exclusive Wine Tour,Ruta del vino,Ruta del vi,"Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","We love sharing our experience of the wine world as well as our unique environment. This tour will give you the chance to visit a typical Catalan farmhouse and wander through the organic vineyards. The estate has had 13 hectares of vineyards for over 25 years, now cultivated using organic techniques, located near and around Allela, Teia and Vilassar de Dalt (DO Alella). This distribution of vineyards means that we have a good representation of the various different sub-climates and soils of the Maresme. The winery is located inside the beautiful 14th century masia, situated near the town of Alella and surrounded by vineyards. Here tradition coexists with the latest winemaking technology used to produce small quantities of quality organic wines with great personality. You'll also discover, first hand, how the wines from Alella are made, on a full tour of the winery where you'll be able to taste four top-quality organic wines.","Nos encanta compartir nuestra experiencia del mundo del vino, así como nuestro territorio. Con este tour tendrás la oportunidad de visitar una típica masía catalana del siglo XIV y caminar entre sus viñedos de cultivo ecológico. La finca dispone de 13 hectáreas de viñedos plantados desde hace más de 25 años y hoy cultivados con técnicas ecológicas, situados en los municipios de Alella, Teià y Vilassar de Dalt (DO Alella). Esta dispersión de la plantación hace que se encuentren representados en ellas diferentes subclimas y suelos del Maresme. La bodega está ubicada en el interior de la preciosa masía, ya documentada el s.XIV, rodeada de viñedos junto al casco urbano de Alella. La tradición del espacio convive con los últimos avances tecnológicos para lograr producciones limitadas de vinos ecológicos de calidad. Además, descubrirás en primera persona cómo se elaboran los vinos de Alella, con una completa visita a su bodega, y podrás degustar cuatro vinos orgánicos de alta calidad.","Ens encanta compartir la nostra experiència del món del vi, així com el nostre territori. Amb aquest tour tindràs l'oportunitat de visitar una típica masia catalana del segle XIV i caminar entre els seus vinyers de cultiu ecològic. La finca disposa de 13 hectàrees de vinyes plantades des de fa més de 25 anys i avui conreades amb tècniques ecològiques, situades als termes municipals d’Alella, Teià i Vilassar de Dalt (DO Alella). Aquesta dispersió de la plantació fa que s’hi trobin representats diferents subclimes i sòls del Maresme. El celler està ubicat a l’interior de la preciosa masia, ja documentada el s.XIV, situada a tocar del nucli urbà d’Alella i rodejada de vinyes. La tradició de l’espai conviu amb els últims avenços tecnològics a fi d’aconseguir produccions limitades de vins ecològics de qualitat amb molta personalitat. A més, descobriràs en primera persona com s'elaboren els vins d'Alella, amb una completa visita al seu celler, i podràs degustar quatre vins orgànics d'alta qualitat.","Pick-up and drop-off at your accommodation
+Please arrive 10 minuts before the tour commences.
+There will be someone holding a bright orange hat.
+It is important to wear comfortable shoes.
+Small groups of up to 20 people.","Recogida en punto de encuentro a concretar. Incluye viaje de ida y retorno
+Es necesario presentarse 10 minutos antes del inicio de la visita.
+El guía llevará un sombrero naranja.
+Es importante llevar zapatos cómodos.
+Grupos reducidos de máximo 20 personas.","Recollida al punt de trobada a concretar. Inclou viatge d’anada i tornada
+És necessari presentar-se 10 minuts abans de l'inici de la visita.
+El guia portarà un barret taronja.
+És important portar sabates còmodes.
+Grups reduïts de màxim 20 persones.","
+Flexible timings. 3 hours approx",Todos los días de la semana. 3 horas aprox,Tots els dies de la setmana. 3 hores aprox,Pick-up and drop-off at your accommodation,Servicio de recogida ida y vuelta (a concretar),Servei de recollida i tornada (a concretar),Up to 20 people,Máx. 20,Màx. 20,"English, Spanish, Italian, French, Portuguese, German and Russian languages","
+Español, Catalán, Inglés, Francés, Portugués, Italiano, Alemán y Ruso","Castellà, Català, Anglès, Francès, Portuguès, Italià, Alemany i Rus"
+vermouth,Wine + vermouth Tour,Ruta del vino + vermut,Ruta del vi + vermut,"Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","The first activity will be done in a typical farmhouse of the 14th century, surrounded by vineyards. Is a small, family-run winery that offers a small production of wines made from mostly local grapes grown over thirteen hectares of land. You will visit the cellar and the vineyards. Finally you will taste four organic and high quality wines.
+
+Discover the tavern that has become reference as a traditional place to take vermouth in the middle of this special village. You will learn about locally grown products, get to know some of the vendors who have been there for years. This casual stop is for you to savour typical gastronomic heritage from a local perspective.","La primera actividad se llevará a cabo en una típica masía del siglo XIV, rodeada de viñedos. Disponen de 13 hectáreas de viñedos de 25 años, con cultivos ecológicos. Visita guiada por el viñedo, por la bodega, y finalmente una degustación de cuatro vinos orgánicos y de alta calidad.
+
+El Vermut es más que una simple bebida, es una hermosa tradición. Disfrute de un típico vermut acompañado de una gran variedad de tapas en una auténtica taberna catalana, abrió sus puertas hace 27 años y es un referente en el bonito pueblo de Alella y sus alrededores.","La primera activitat es durà a terme en una típica masia del segle XIV, envoltada de vinyers. Disposen de 13 hectàrees de vinyers de 25 anys, amb cultius ecològics. Visita guiada pel vinyer, pel celler, i finalment una degustació de quatre vins orgànics i d'alta qualitat.
+
+El Vermut és més que una simple beguda, és una bella tradició. Gaudi d'un típic vermut acompanyat d'una gran varietat de tapes en una autèntica taverna catalana, va obrir les seves portes fa 27 anys i és un referent al bonic poble d'Alella i els seus voltants.","Pick-up and drop-off at your accommodation
+Please arrive 10 minuts before the tour commences.
+There will be someone holding a bright orange hat.
+It is important to wear comfortable shoes.
+Small groups of up to 20 people.
+A menu for vegetarians and/or people with special dietary requirements is available.","Recogida en punto de encuentro a concretar. Incluye viaje de ida y retorno
+Es necesario presentarse 10 minutos antes del inicio de la visita.
+El guía llevará un sombrero naranja.
+Es importante llevar zapatos cómodos.
+Grupos reducidos de máximo 20 personas.
+Disponible menú para vegetarianos y / o personas con necesidades dietéticas especiales ","Recollida al punt de trobada a concretar. Inclou viatge d’anada i tornada
+És necessari presentar-se 10 minuts abans de l'inici de la visita.
+El guia portarà un barret taronja.
+És important portar sabates còmodes.
+Grups reduïts de màxim 20 persones.
+Disponible menú per a vegetarians i / o persones amb necessitats dietètiques especials.","
+Flexible timings. 4 hours approx",Todos los días de la semana. 4 horas aprox,Tots els dies de la setmana. 4 hores aprox,Pick-up and drop-off at your accommodation,Servicio de recogida ida y vuelta (a concretar),Servei de recollida i tornada (a concretar),Up to 20 people,Máx. 20,Màx. 20,"English, Spanish, Italian, French, Portuguese, German and Russian languages","
+Español, Catalán, Inglés, Francés, Portugués, Italiano, Alemán y Ruso","Castellà, Català, Anglès, Francès, Portuguès, Italià, Alemany i Rus"
+2wineries,Enjoy a tour of two genuine wineries + vermouth time,Dos Bodegas + vermut,Dos cellers + vemut,"Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","The first activity will be done in a typical farmhouse of the 14th century, surrounded by vineyards. Is a small, family-run winery that offers a small production of wines made from mostly local grapes grown over thirteen hectares of land. You will visit the cellar and the vineyards. Finally you will taste four organic and high quality wines.
+
+Discover the tavern that has become reference as a traditional place to take vermouth in the middle of this special village. You will learn about locally grown products, get to know some of the vendors who have been there for years. This casual stop is for you to savour typical gastronomic heritage from a local perspective.
+
+Finally we'll visit another vineyards near the sea in the Serralada de Marina’s Natural Park, and the modern cellar. Taste 3 ""transparent"" wines and cavas, which are the result of a combination of elements: man, land, vineyards and vintage in a unique setting!","La primera actividad se llevará a cabo en una típica masía del siglo XIV, rodeada de viñedos. Disponen de 13 hectáreas de viñedos de 25 años, con cultivos ecológicos. Visita guiada por el viñedo, por la bodega, y finalmente una degustación de cuatro vinos orgánicos y de alta calidad.
+
+El Vermut es más que una simple bebida, es una hermosa tradición. Disfrute de un típico vermut acompañado de una gran variedad de tapas en una auténtica taberna catalana, abrió sus puertas hace 27 años y es un referente en el bonito pueblo de Alella y sus alrededores.
+
+
+Finalmente visitaremos otros viñedos cerca del mar en el Parque Natural de la Serralada de Marina y otra bodega más moderna. Pruebe 3 vinos/cavas, que son el resultado de una combinación de elementos: el hombre, la tierra, los viñedos y la vendimia, en un entorno único!","La primera activitat es durà a terme en una típica masia del segle XIV, envoltada de vinyers. Disposen de 13 hectàrees de vinyers de 25 anys, amb cultius ecològics. Visita guiada pel vinyer, pel celler, i finalment una degustació de quatre vins orgànics i d'alta qualitat.
+
+El Vermut és més que una simple beguda, és una bella tradició. Gaudi d'un típic vermut acompanyat d'una gran varietat de tapes en una autèntica taverna catalana, va obrir les seves portes fa 27 anys i és un referent al bonic poble d'Alella i els seus voltants.
+
+Finalment visitarem uns altres vinyers prop del mar al Parc Natural de la Serralada de Marina i un altre celler més modern. Provi 3 vins/caves, que són el resultat d'una combinació d'elements: l'home, la terra, els vinyers i la verema, en un entorn únic!","Pick-up and drop-off at your accommodation
+Please arrive 10 minuts before the tour commences.
+There will be someone holding a bright orange hat.
+It is important to wear comfortable shoes.
+Small groups of up to 20 people.
+A menu for vegetarians and/or people with special dietary requirements is available.","Recogida en punto de encuentro a concretar. Incluye viaje de ida y retorno
+Es necesario presentarse 10 minutos antes del inicio de la visita.
+El guía llevará un sombrero naranja.
+Es importante llevar zapatos cómodos.
+Grupos reducidos de máximo 20 personas.
+Disponible menú para vegetarianos y / o personas con necesidades dietéticas especiales ","Recollida al punt de trobada a concretar. Inclou viatge d’anada i tornada
+És necessari presentar-se 10 minuts abans de l'inici de la visita.
+El guia portarà un barret taronja.
+És important portar sabates còmodes.
+Grups reduïts de màxim 20 persones.
+Disponible menú per a vegetarians i / o persones amb necessitats dietètiques especials.","
+Flexible timings. 7 hours approx",Todos los días de la semana. 7 horas aprox.,Tots els dies de la setmana. 7 hores aprox,Pick-up and drop-off at your accommodation,Servicio de recogida ida y vuelta (a concretar),Servei de recollida i tornada (a concretar),Up to 20 people,Máx. 20,Màx. 20,"English, Spanish, Italian, French, Portuguese, German and Russian languages","
+Español, Catalán, Inglés, Francés, Portugués, Italiano, Alemán y Ruso","Castellà, Català, Anglès, Francès, Portuguès, Italià, Alemany i Rus"
+shopping,La Roca Village Shopping + Wine Organic Experience,"
+La Roca Village Shopping + Experiencia Vinícola",La Roca Village Shopping + Experiència vitivinícola,"Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","Lorem ipsum dolor sit amet, $consectetur adipiscing$ elit. Curabitur in viverra nisl. Aliquam $commodo volutpat$ risus ut auctor. Donec quis quam enim.","On this 8-hours tour you will enjoy a Luxury Shopping Experience, Catalan Organic Wines and a Wonderful Tasty Lunch.
+
+Your tour begins in your meeting point, where you’ll board a private, air-conditioned vehicle destined for the La Roca Village, located 40 minutes from Barcelona. On arrival at La Roca Village, leave your private transport and head inside to enjoy shopping at leisure. Explore the spacious outdoor mall independently and browse the collections at some 100 luxury boutiques, discovering mens’ and womens’ clothing, sportswear, accessories, cosmetics and more.
+
+Following this, you’ll visit a modernist farmhouse, surrounded by vineyards and home to a family-run winery. After a visit to the cellars and vineyards, you’ll sample four organic wines made from grapes growing within meters of the winery. Have a gourmet aperitif surrounded by vineyards in a beautiful atmosphere and environment!","El tour empezarà desde el punto de encuentro, hacia la Roca Village, a tan sólo 40 minutos de Barcelona. Disfrutaràs de más de 130 tiendas de moda de las mejores marcas con grandes descuentos. Después de 2 horas y media, pondremos rumbo hacia la bodega. La bodega es una casa señorial del 1864. Desde 2010, la bodega elabora vinos dentro de la D.O. Alella, al norte de Barcelona. Dispone de unas siete hectáreas de viña de las variedades pansa blanca (la más habitual en el territorio de la D.O. Alella), moscatell, merlot y cabernet.
+
+Empezaremos con una pequeña paseada por los alrededores de la finca hasta llegar a las viñas centenarias. Con ellas se elaboran los vinos crianza más exclusivos que aprovecharemos para probar allá mismo, a ‘pie de viña’. Continuaremos la visita en la bodega, donde profundizaremos en el proceso de elaboración de los vinos: desde el cultivo y la cura de la viña hasta la recolección de la uva y posterior procesado.
+
+Antes de la comida, acabaremos visitando la bodega antigua de la masía. Un viaje al pasado centenario de la finca que permitirá entender los cambios que se han dado en las técnicas de elaboración del vino. Aprovecharemos este entorno para realizar una última cata de vinos.
+
+
+La comida será servida a la propia masía y será elaborada con productos de proximidad, algunos de ellos cultivados en la propia finca.","El tour començarà des del punt de trobada, cap a la Roca Village, a tan sols 40 minuts de Barcelona. Gaudiràs de més de 130 botigues de moda de les millors marques amb grans descomptes. Després de 2 hores i mitja, anirem cap al celler. És una casa senyorial del 1864. Des de 2010, el celler elabora vins dins de la D.O. Alella, al nord de Barcelona. Disposa d'unes set hectàrees de vinya de les varietats pansa blanca (la més habitual al territori de la D.O. Alella), moscatell, merlot i cabernet.
+
+Començarem amb una petita passejada pels voltants de la finca fins a arribar a les vinyes centenàries. Amb elles s'elaboren els vins criança més exclusius que aprofitarem per provar allà mateix, a ‘peu de vinya’. Continuarem la visita al celler, on aprofundirem en el procés d'elaboració dels vins: des del cultiu i la cura de la vinya fins a la recol·lecció del raïm i posterior processament.
+
+Acabarem visitant el celler antic de la masia. Un viatge al passat centenari de la finca que permetrà entendre els canvis que s'han donat en les tècniques d'elaboració del vi. Aprofitarem aquest entorn per realitzar un últim tast de vins.
+
+
+El menjar serà servit a la pròpia masia i és elaborat amb productes de proximitat, alguns d'ells conreats en la pròpia finca.","Pick-up and drop-off at your accommodation
+Please arrive 10 minuts before the tour commences.
+There will be someone holding a bright orange hat.
+It is important to wear comfortable shoes.
+Small groups of up to 20 people.
+A menu for vegetarians and/or people with special dietary requirements is available.","Recogida en punto de encuentro a concretar. Incluye viaje de ida y retorno
+Es necesario presentarse 10 minutos antes del inicio de la visita.
+El guía llevará un sombrero naranja.
+Es importante llevar zapatos cómodos.
+Grupos reducidos de máximo 20 personas.
+Disponible menú para vegetarianos y / o personas con necesidades dietéticas especiales ","Recollida al punt de trobada a concretar. Inclou viatge d’anada i tornada
+És necessari presentar-se 10 minuts abans de l'inici de la visita.
+El guia portarà un barret taronja.
+És important portar sabates còmodes.
+Grups reduïts de màxim 20 persones.
+Disponible menú per a vegetarians i / o persones amb necessitats dietètiques especials.","
+Flexible timings. 8 hours approx",Todos los días de la semana. 8 horas aprox,Tots els dies de la setmana. 8 hores aprox,Pick-up and drop-off at your accommodation,Servicio de recogida ida y vuelta (a concretar),Servei de recollida i tornada (a concretar),Up to 20 people,Máx. 20,Màx. 20,"English, Spanish, Italian, French, Portuguese, German and Russian languages","
+Español, Catalán, Inglés, Francés, Portugués, Italiano, Alemán y Ruso","Castellà, Català, Anglès, Francès, Portuguès, Italià, Alemany i Rus"
+events,Meetings & Private Events,Eventos Privados,Esdeveniments Privats,"If you're planning a special event and want something out of the ordinary, imagine the possibilities of hosting your event in our wineries.","Si planeas un evento especial y quieres algo fuera de lo común, imagina las posibilidades de organizar tu evento en nuestras bodegas.","Si estás organitzant un esdeveniment especial i vols alguna cosa fora del comú, imagina les possibilitats d'organitzar el teu esdeveniment en els nostres cellers.","
+There are plenty of great reasons to host your next event at a winery. We host a wide variety of events, from small dinners to large corporate events.
+
+Plan your private event with us and let our team create a memorable experience that will leave your guests talking about it for years to come.
+
+We offer all-inclusive planning from start to finish, accommodating groups from 15-200 guests. All of our private events take place in  exclusive wineries. 
+
+Corporate Dinners & Luncheons
+Private dining is available for your corporate dinners and luncheons. We prepare menu choices for you and your guests to make individual selections. If this is a working dinner/luncheon, we have a projector and screen available for your use.
+
+Blind Wine Tasting & Dinner
+Begin your evening with a social blind wine tasting. We will assist you along the way with some fun wine knowledge to help your guests decipher the wines they are enjoying. After the tasting, your guests will be seated for a private customized dinner.
+
+Teambuilding
+HAT Barcelona offers you a wide range of activities, not only common team building programs for groups but also custom-tailored experiences that will suit all your needs. 
+Find bellow a brief list of available events: 
+
+Grape Stomping 
+Wine Tasting
+Gourmet Cooking
+Wine activities
+Room Escape
+Gymkhanas
+Orientation races between vineyards
+
+If you are looking for something different instead, our event planners will work closely with you to design a special day for your company. There is a whole world of endless possibilities.
+","Hay muchas razones para organizar su próximo evento en una bodega. 
+
+Ofrecemos una gran variedad de eventos, desde pequeñas cenas hasta grandes eventos corporativos.
+
+
+Reuniones y eventos privados
+Planifique su evento privado con nosotros y deje que nuestro equipo cree una experiencia memorable que dejará a sus invitados hablando de ello durante los próximos años.
+Ofrecemos la organización de principio a fin, con capacidad para grupos de 15-200 personas. Todos nuestros eventos privados tienen lugar en exclusivas bodegas.
+
+Cenas y almuerzos corporativos
+Espacios privados disponibles para sus cenas corporativas y almuerzos. Preparamos opciones de menú para que usted y sus invitados. Disponemos de  proyector y una pantalla disponibles para su uso.
+
+Degustación a ciegas
+Comience su noche con una degustación de vino a ciegas. Le enseñaremos el proceso de producción del vino, las variedades y tipologías de este, para ayudar a sus huéspedes a descifrar los vinos que están disfrutando. Después de la degustación, sus invitados estarán sentados para una cena privada y personalizada.
+
+Team Building
+HAT Barcelona te ofrece una amplia gama de actividades, no solo programas típicos de team building para grupos, sino también experiencias personalizadas que satisfarán todas tus necesidades.
+A continuación encontrará una breve lista de eventos disponibles:
+
+La Vendimia
+Cata de vinos
+Cocina gourmet
+Actividades relacionadas con el vino
+Room Escapes entre viñedos
+Gymkhanas
+Carreras de orientación entre viñedos
+
+Si está buscando algo diferente, nuestros organizadores de eventos trabajarán estrechamente con usted para diseñar un día especial para su empresa.
+Hay infinitas posibilidades.","Hi ha moltes raons per organitzar el seu proper esdeveniment en un celler.
+Oferim una gran varietat d'esdeveniments, des de petits sopars fins a grans esdeveniments corporatius.
+
+Reunions i esdeveniments privats
+Planifiqui el seu esdeveniment privat amb nosaltres i deixi que el nostre equip dissenyi una experiència memorable que deixarà als seus convidats parlant d'això durant els propers anys.
+Oferim l'organització de principi a fi, amb capacitat per a grups de 15-200 persones. Tots els nostres esdeveniments privats tenen lloc a exclusius cellers.
+
+Sopars i esmorzars corporatius
+Espais privats disponibles per als seus sopars corporatius i esmorzars. Preparem opcions de menú perquè vostè i els seus convidats. Disposem de projector i una pantalla disponibles per al seu ús.
+
+Degustació a cegues
+Comenci la seva nit amb una degustació de vi a cegues. Li ensenyarem el procés de producció, les varietats i tipologies del vi, per ajudar als seus convidats a desxifrar els vins que estan gaudint. Després de la degustació, els seus convidats gaudiran d’un sopar privat a un lloc privilegiat.
+
+Team Building
+HAT Barcelona t'ofereix una àmplia gamma d'activitats, no només programes típics de team building per a grups, sinó també experiències personalitzades que satisfaran totes les teves necessitats.
+A continuació trobarà una breu llista d'esdeveniments disponibles:
+La Verema
+Cata de vins
+Cuina gourmet
+Activitats relacionades amb el vi
+Room Escape entre vinyers
+Gymkhanas
+Carreras d'orientació entre vinyers
+
+Si està buscant alguna cosa diferent, els nostres organitzadors d'esdeveniments treballaran estretament amb vostè per dissenyar un dia especial per a la seva empresa.
+Hi ha infinites possibilitats.",,,,,,,Pick-up and drop-off at your accommodation,Servicio de recogida ida y vuelta (a concretar),Servei de recollida i tornada (a concretar),Up to 20 people,Máx. 20,Màx. 20,"English, Spanish, Italian, French, Portuguese, German and Russian languages","
+Español, Catalán, Inglés, Francés, Portugués, Italiano, Alemán y Ruso","Castellà, Català, Anglès, Francès, Portuguès, Italià, Alemany i Rus"
