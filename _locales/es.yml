@@ -126,11 +126,10 @@ es:
     adults:
       title: Menú
   map:
-    title: Recuerda nuestro punto de encuentro - Deberán buscar un sombrero de color
-      naranja
-    description: 'Plaza de Catalunya, 21 (delante del Hard Rock Café). Metro: L1 y
-      L3, parada Catalunya. Bus: 16, 17, 41, 42, 55 y 141. Rodalies Renfe y FGC: parada
-      Catalunya.'
+    title: Punto de encuentro
+    description: |-
+      Plaza de Catalunya, 21 (delante del Hard Rock Café). Metro: L1 y L3, parada Catalunya.
+      Bus: 16, 17, 41, 42, 55 y 141. Rodalies Renfe y FGC: parada Catalunya.
   guide:
     description: "$Guías turísticos profesionales, amables y con conocimientos$ sobre
       la historia, la cultura y la tradición de la región"

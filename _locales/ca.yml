@@ -127,11 +127,10 @@ ca:
     adults:
       title: Menú
   map:
-    title: Recorda el nostre punt de trobada - Hauran de buscar un barret de color
-      taronja
-    description: 'Plaça de Catalunya, 21 (davant del Hard Rock Cafè). Metro: L1 i
-      L3, parada Catalunya. Bus: 16, 17, 41, 42, 55 i 141. Rodalies Renfe i FGC: parada
-      pl. Catalunya.'
+    title: Punt de trobada
+    description: |-
+      Plaça de Catalunya, 21 (davant del Hard Rock Cafè). Metro: L1 i L3, parada Catalunya.
+      Bus: 16, 17, 41, 42, 55 i 141. Rodalies Renfe i FGC: parada pl. Catalunya.
   guide:
     description: "$Guies turístics professionals, amables i amb coneixements$ sobre
       la història, la cultura i la tradició de la regió"
