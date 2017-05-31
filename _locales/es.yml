@@ -135,8 +135,11 @@ es:
       la historia, la cultura y la tradición de la región"
   types:
     title: Nuestros tours
+    subtitle: 'Disfruta de nuestros tours, en el municipio que da nombre a una de
+      las denominaciones de origen más pequeñas y antiguas de la península: La denominación
+      de origen Alella.'
     regulars:
-      title: "$Tours Regulares$"
+      title: "$Tours regulares$"
       description: "¡Únete a nuestro grupo guiado, conoce a gente y disfrute de nuestra
         experiencia!"
     private:

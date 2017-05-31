@@ -136,8 +136,9 @@ ca:
       la història, la cultura i la tradició de la regió"
   types:
     title: Els nostres tours
+    subtitle: 
     regulars:
-      title: "$Tours Regulars$"
+      title: "$Tours regulars$"
       description: Uneix-te al nostre grup guiat, coneix a gent i gaudeixi de la nostra
         experiència!
     private:
