@@ -3,4 +3,25 @@ layout: default
 section: regular
 ---
 
-{% include regulars_authentic.html %}
+{% include header.html %}
+{% include private-front.html %}
+{% include icons.html %}
+
+{% assign simple = page.tour | field: 'description' | strip_newlines %}
+
+{% if simple == "" %}
+  {% include itinerary.html %}
+{% else %}
+  {% include itinerary-simple.html %}
+{% endif %}
+
+{% include guide.html %}
+{% include map.html %}
+{% include details.html %}
+{% include prices.html type=page.tour.key %}
+{% include newsletter.html %}
+{% include gallery.html %}
+{% include logos.html %}
+{% include back-to-top.html %}
+
+{% include json-ld-product.html %}

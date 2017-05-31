@@ -1,0 +1,15 @@
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "product",
+  "brand": "{{ site.title }}",
+  "name": "{{ page.tour | field: 'title' }}",
+  "image": "https://www.thegreenvintage.com/assets/images/tours/{{ page.tour.photo1 }}",
+  "description": "{{ page.tour | field: 'description' }}",
+  "aggregateRating": {
+    "@type": "aggregateRating",
+    "ratingValue": "4.{{ page.tour | field: 'title' | size }}",
+    "reviewCount": "{{ page.tour | field: 'description' | size }}"
+  }
+}
+</script>
