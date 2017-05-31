@@ -6,4 +6,4 @@ body: landing-page
 permalink: /en/tours/private/
 ---
 
-{% include private_types.html %}
+{% include privates.html %}
