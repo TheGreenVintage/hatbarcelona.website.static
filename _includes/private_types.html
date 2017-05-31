@@ -7,7 +7,7 @@
   </div>
 </section>
 
-<section id="tour" class="section process-section align-center dark-text">
+<section id="tour" class="section align-center dark-text">
   <div class="container">
 
     {% assign tour_groups = site.data.private | in_groups_of: 2 %}
@@ -16,7 +16,10 @@
     <div class="section-content row">
       {% for tour in tour_group %}
       <div class="col-sm-6">
-        <img src="/assets/img/features/content_image2.jpg" class="img-responsive"  title="{{ tour | field: 'title'}}" alt="{{ tour | field: 'title'}}" />
+
+        {% assign filename = tour.photo1 %}
+        <img src="/assets/img/gallery/{{ filename }}" class="img-responsive"  title="{{ tour | field: 'title'}}" alt="{{ tour | field: 'title'}}" />
+
         <article>
           <h3>{{ tour | field: 'title'}}</h3>
           <p class="sub-title medium">{{ tour | field: 'subtitle'}}</p>
