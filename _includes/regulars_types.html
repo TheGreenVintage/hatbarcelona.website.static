@@ -16,7 +16,7 @@
     <div class="section-content row">
       {% for tour in tour_group %}
       <div class="col-sm-6">
-        <img src="/assets/img/features/content_image2.jpg" class="img-responsive" title="{{ 'itinerary.title_2' | translate: nil, false, false }}" alt="{{ 'itinerary.title_2' | translate: nil, false, false }}" />
+        <img src="/assets/img/features/content_image2.jpg" class="img-responsive" title="{{ tour | field: 'title'}}" alt="{{ tour | field: 'title'}}" />
         <article>
           <h3>{{ tour | field: 'title'}}</h3>
           <p class="sub-title medium">{{ tour | field: 'subtitle'}}</p>

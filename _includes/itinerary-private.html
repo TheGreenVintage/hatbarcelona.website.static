@@ -1,0 +1,26 @@
+<section id="sc-longblock" class="section light-text long-block">
+  <div class="container">
+    <div class="col-lg-12">
+      <i class="icon icon-travel-transportation-16 pull-left"></i>
+      <h2>{{ 'authentic.itinerary.line.title' | translate }}</h2>
+      <p class="thin">{{ 'authentic.itinerary.line.subtitle' | translate }}</p>
+    </div>
+  </div>
+</section>
+
+<section id="tour" class="section process-section align-center dark-text">
+  <div class="container">
+    <div class="section-content row">
+      <div class="col-sm-8 pull-right animated" data-duration="500" data-animation="fadeIn">
+        <img src="/assets/img/features/content_image1.jpg" class="img-responsive" title="{{ 'authentic.itinerary.title_1' | translate: nil, false, false }}" alt="{{ 'authentic.itinerary.title_1' | translate: nil, false, false }}" />
+      </div>
+      <div class="col-sm-4 align-left animated" data-duration="500" data-animation="fadeIn">
+        <br/><br/>
+        <article>
+          <p class="sub-title medium">{{ page.tour | field: 'description' }}</p>
+          <p class="sub-title medium">{{ page.tour | field: 'details' }}</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
