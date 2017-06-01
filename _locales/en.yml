@@ -28,6 +28,11 @@ en:
     learn_more: More information
   generic:
     navigate: Browse
+    address: Carrer de Casp, 79 Sobreàtic
+    town: Barcelona
+    region: Catalonia
+    postal: '80013'
+    country: Spain
     dragging: Move
     arrows: Arrows
     keyboard: Keyboard
@@ -150,7 +155,7 @@ en:
         New experience out of the city!!! great day in the vineyards! Good wine, good
         village, excellent guide and services. I will do another HAT Experience again!
     private:
-      title: "$Private Tours & Events$"
+      title: "$Private Tours$"
       description: HAT Barcelona offers VIP wine tours. Browse our tour 'suggestions'
         each tour can be customized just for you!
       review: New tour in Barcelona! Highly recommended. Great wines, beautiful village,

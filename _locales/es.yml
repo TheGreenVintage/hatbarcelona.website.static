@@ -25,6 +25,11 @@ es:
     learn_more: Más información
   generic:
     navigate: Navegar
+    address: Carrer de Casp, 79 Sobreàtic
+    town: Barcelona
+    region: Cataluña
+    postal: '80013'
+    country: España
     dragging: Mover
     arrows: Flechas
     keyboard: Teclado
@@ -144,7 +149,7 @@ es:
         paseo muy relajante por un pueblo pequeño con mucho encanto y degustamos unas
         tapas muy buenas en un sitio muy original!
     private:
-      title: "$Tours privados y eventos$"
+      title: "$Tours privados$"
       description: HAT Barcelona ofrece tours de vinos. Cada una de nuestras experiencias
         se puede personalizar.
       review: Este pasado 25 de junio tenia un compromiso con unos amigos malagueños.
