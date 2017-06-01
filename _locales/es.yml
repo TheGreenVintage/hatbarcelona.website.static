@@ -188,3 +188,44 @@ es:
         auténtica taberna catalana, abrió sus puertas hace 27 años y es un referente
         en el bonito pueblo de Alella y sus alrededores.
       button_4: MENÚ
+  events:
+    introduction: |-
+      Tenemos experiencia en la organización de eventos en lugares muy especiales como bodegas.
+      Ofrecemos una gran variedad de eventos, desde pequeñas cenas hasta grandes eventos corporativos.
+    title: Eventos privados
+    subtitle: Si planeas un evento especial y quieres algo fuera de lo común, imagina
+      las posibilidades de organizar tu evento en nuestras bodegas.
+    type1:
+      title: "$REUNIONES Y EVENTOS$"
+      description: |-
+        Planifique su evento privado con nosotros y deje que nuestro equipo cree una experiencia memorable que dejará a sus invitados hablando de ello durante los próximos años. Ofrecemos la organización de principio a fin, con capacidad para grupos de 15-200 personas. Todos nuestros acontecimientos privados tienen lugar a exclusivas bodegas.
+
+        • Formatos: Teatro, Escuela, imperial, "U" y banquete
+        • Facilidades técnicas: WIFI, proyector, pantalla y pizarra
+        • Opciones: Coffee Break y comida
+    type2:
+      title: "$ALMUERZOS Y CENAS DE TRABAJO$"
+      description: Espacios privados disponibles para sus cenas corporativas y almuerzos.
+        Preparamos opciones de menú para que usted y sus invitados.
+    type3:
+      title: "$ROOM ESCAPE ENTRE VIÑAS- TEAM BUILDING$"
+      description: Estas preparado para vivir una auténtica aventura de room escape
+        en un lugar original y diferente. Lo personalizamos según la temática y los
+        valores de vuestra empresa.
+    type4:
+      title: "$CURSA DE ORIENTACIÓN ENTRE VIÑAS - TEAM BUILDING$"
+      description: "Grupo mínimo 8 personas. Cada equipo tendrá que diseñar una estrategia
+        propia para conseguir encontrar el mayor número de\r\nhitos en el menor tiempo
+        posible con la ayuda de un mapa."
+    type5:
+      title: "$DEGUSTACIÓN A CIEGAS$"
+      description: Comience su noche con una degustación de vino a ciegas. Le enseñaremos
+        el proceso de producción del vino, las variedades y tipologías de este, para
+        ayudar a sus huéspedes a descifrar los vinos que están disfrutando. Después
+        de la degustación, sus invitados estarán sentados para una cena privada y
+        personalizada.
+    type6:
+      title: "$FIESTAS PRIVADAS$"
+      description: Si está buscando algo diferente, nuestros organizadores de eventos
+        trabajarán estrechamente con usted para diseñar un evento especial para su
+        empresa.

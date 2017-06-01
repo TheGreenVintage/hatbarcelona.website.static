@@ -193,3 +193,46 @@ en:
         reference as a traditional place to take vermouth in the middle of this special
         village."
       button_4: MENU
+  events:
+    introduction: "There are plenty of great reasons to host your next event at a
+      winery. We host a wide variety of events, from small dinners to large corporate
+      events. \n\nPlan your private event with us and let our team create a memorable
+      experience that will leave your guests talking about it for years to come. We
+      offer all-inclusive planning from start to finish, accommodating groups from
+      15-200 guests. All of our private events take place in exclusive wineries."
+    title: Meetings & Private events
+    subtitle: If you're planning a special event and want something out of the ordinary,
+      imagine the possibilities of hosting your event in our wineries.
+    type1:
+      title: "$MEETING ROOMS$"
+      description: "A very interesting option for companies that want a special ambience
+        for an important meeting to combine work with an activity related to the vines
+        or winery\n \n• Formatos: “U” table, theatre, school, imperial, cocktail \n•
+        Technical facilities: projector, screen, board and Wi-Fi \n• Extras: Coffee
+        Break and lunch/dinner"
+    type2:
+      title: "$CORPORATE LUNCH & DINNER$"
+      description: Enjoy a delicious meal in a winery and exclusive space reserved
+        exclusively for you and your guests.
+    type3:
+      title: "$WINERY'S ESCAPE ROOM - TEAM BUILDING$"
+      description: Our fun, real life puzzle game offers mind challenges, ingenuity
+        and more in a true reality escape game of being locked in our real wine cellar.
+        Learn about yourself and your teammates as you face new challenges under time
+        pressure.
+    type4:
+      title: "$ORIENTEERING COURSES AMONG THE VINES - TEAM BUILDING$"
+      description: Each team would design their own strategy to get to find as many
+        milestones in the shortest possible time with the help of a map. Minimum group
+        8 people.
+    type5:
+      title: "$BLING WINE TASTING & DINNER$"
+      description: Begin your evening with a social blind wine tasting. We will assist
+        you along the way with some fun wine knowledge to help your guests decipher
+        the wines they are enjoying. After the tasting, your guests will be seated
+        for a private customized dinner.
+    type6:
+      title: "$PRIVATE PARTIES$"
+      description: If you are looking for something different instead, our event planners
+        will work closely with you to design a special event for your company. There
+        is a whole world of endless possibilities

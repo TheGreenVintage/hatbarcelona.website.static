@@ -189,3 +189,45 @@ ca:
         taverna catalana, va obrir les seves portes fa 27 anys i és un referent en
         el preciós poble d'Alella i els seus voltants.
       button_4: MENÚ
+  events:
+    introduction: Tenim experiència en l'organització d'esdeveniments en llocs molt
+      especials com és un celler. Oferim una gran varietat d'esdeveniments, des de
+      petits sopars fins a grans esdeveniments corporatius.
+    title: Esdeveniments privats
+    subtitle: Si estás organitzant un esdeveniment especial i vols alguna cosa fora
+      del comú, imagina les possibilitats d'organitzar el teu esdeveniment en els
+      nostres cellers.
+    type1:
+      title: "$REUNIONS I ESDEVENIMENTS$"
+      description: |-
+        Planifiqui el seu esdeveniment privat amb nosaltres i deixi que el nostre equip dissenyi una experiència memorable que deixarà als seus convidats parlant d'això durant els propers anys. Oferim l'organització de principi a fi, amb capacitat per a grups de 15-200 persones. Tots els nostres esdeveniments privats tenen lloc a exclusius cellers.
+
+        • Formats: Teatre, Escola, imperial, "O" i banquet
+        • Facilitats tècniques: WIFI, projector, pantalla i pissarra
+        • Opcions: Coffee Break i menjar
+    type2:
+      title: "$ÀPATS CORPORATIUS$"
+      description: Sorprengui als seus convidats amb els nostres espais privats disponibles
+        per als seus esdeveniments. Preparem opcions de menú per a vostè i els seus
+        convidats.
+    type3:
+      title: "$ROOM ESCAPE ENTRE VINYES - TEAM BUILDING$"
+      description: Estàs preparat per viure una autèntica aventura de Room Escape
+        en un lloc original i diferent. Ho personalitzem segons la temàtica i els
+        valors de la vostra empresa.
+    type4:
+      title: "$CURSA D'ORIENTACIÓ ENTRE VINYES - TEAM BUILDING$"
+      description: Grup mínim 8 persones. Cada equip haurà de dissenyar una estratègia
+        pròpia per aconseguir trobar el nombre més gran de fites en el menor temps
+        possible amb l'ajuda d'un mapa.
+    type5:
+      title: "$DEGUSTACIÓ A CEGUES$"
+      description: Comenci la seva nit amb una degustació de vi a cegues. Li ensenyarem
+        el procés de producció, les varietats i tipologies del vi, per ajudar als
+        seus convidats a desxifrar els vins que estan gaudint. Després de la degustació,
+        els seus convidats gaudiran d’un sopar privat a un lloc privilegiat.
+    type6:
+      title: "$FESTES PRIVADES$"
+      description: Si està buscant alguna cosa diferent, els nostres organitzadors
+        d'esdeveniments treballaran estretament amb vostè per dissenyar un esdeveniment
+        especial per a la seva empresa.
