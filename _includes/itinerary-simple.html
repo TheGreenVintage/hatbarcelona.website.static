@@ -11,7 +11,7 @@
 <section id="tour" class="section process-section align-center dark-text">
   <div class="container">
     <div class="row" style="margin: 60px 0px 0px">
-      <p class="sub-title big">{{ page.tour | field: 'description' }}</p>
+      <p class="sub-title big">{{ page.tour | field: 'description' | newline_to_br }}</p>
     </div>
   </div>
 </section>
