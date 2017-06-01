@@ -1,30 +1,35 @@
-<section id="sc-longblock" class="section light-text long-block">
+<section class="section">
   <div class="container">
-    <div class="col-lg-12 align-center">
-      <i class="icon icon-travel-transportation-16 pull-left"></i>
-      <h2>{{ 'types.title' | translate }}</h2>
+    <div class="row" style="margin: 100px 0px 0px; text-transform: uppercase;">
+      <div class="col-md-12 align-center">
+        <h2>{{ 'types.title' | translate }}</h2>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="tour" class="section align-center dark-text">
+<section class="section align-center dark-text">
   <div class="container">
 
+    {% assign regular_types = 'regular.types' | section %}
     {% assign tour_groups = site.data.regulars | in_groups_of: 2 %}
     {% for tour_group in tour_groups %}
-    <br/><br/>
-    <div class="section-content row">
+    <div class="section-content row" style="margin-bottom: 60px;">
+
       {% for tour in tour_group %}
       <div class="col-sm-6">
 
-        {% assign filename = tour.photo1 %}
-        <img src="/assets/img/gallery/{{ filename }}" class="img-responsive"  title="{{ tour | field: 'title'}}" alt="{{ tour | field: 'title'}}" />
+        <a href="{{ regular_types.permalink }}{{ tour | field: 'title' | slugify }}">
+          {% assign filename = tour.photo1 %}
+          <img src="/assets/img/gallery/{{ filename }}" class="img-responsive"  title="{{ tour | field: 'title'}}" alt="{{ tour | field: 'title'}}" />
+        </a>
 
         <article>
           <h3>{{ tour | field: 'title'}}</h3>
           <p class="sub-title medium">{{ tour | field: 'subtitle'}}</p>
         </article>
-        <a class="btn btn-sm btn-solid base_clr_bg" href="/{{ page.locale}}/tours/regulars/{{ tour | field: 'title' | slugify }}">{{ 'generic.more_info' | translate }}</a>
+
+        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ regular_types.permalink }}{{ tour | field: 'title' | slugify }}">{{ 'generic.more_info' | translate }}</a>
       </div>
       {% endfor %}
     </div> <!-- /row -->

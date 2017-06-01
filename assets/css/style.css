@@ -4733,6 +4733,9 @@ td.cart-list-item-price {
   width: 230px;
   visibility: hidden;
 }
+.navigation-header .navigation-brand.navigation-breadcrumb .brand-logo {
+  visibility: visible;
+}
 .navigation-header .navigation-brand .brand-logo .logo {
   -webkit-background-size: contain;
   -moz-background-size: contain;

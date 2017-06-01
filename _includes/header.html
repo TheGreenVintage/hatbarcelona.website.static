@@ -1,8 +1,8 @@
 <!-- Header -->
-<header class="{% if include.fixed %} fixed-menu{% endif %}">
+<header class="{% if include.fixed %} fixed-menu sticky-menu{% endif %}">
   <nav class="navigation navigation-header">
     <div class="container">
-        <div class="navigation-brand">
+        <div class="navigation-brand{% if include.breadcrumb %} navigation-breadcrumb{% endif %}">
           <div class="brand-logo">
             <a href="/{{ page.locale }}" class="logo"></a><a href="/{{ page.locale }}" class="logo logo-alt"></a>
           </div>

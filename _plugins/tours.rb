@@ -20,14 +20,22 @@ module Jekyll
   class RegularTourPageGenerator < Generator
     safe true
 
+    def tours_folder(site, locale)
+      site.pages.select do |p|
+        p.data['section'] == 'regular.types' && p.data['locale'] == locale
+      end.first
+    end
+
     def generate(site)
       if site.layouts.key? 'regular_tour_index'
         site.config['locales'].each do |locale_array|
           locale = locale_array.first
           regular_tours = site.data['regulars']
+          regular_tours_folder = tours_folder(site, locale)
+
           regular_tours.each do |regular_tour|
             name = Utils.slugify(regular_tour["title_#{locale}"])
-            site.pages << RegularTourPage.new(site, site.source, File.join(locale, 'tours', 'regulars', name), regular_tour, locale)
+            site.pages << RegularTourPage.new(site, site.source, File.join(regular_tours_folder.permalink[1..-1], name), regular_tour, locale)
           end
         end
       end
@@ -52,14 +60,21 @@ module Jekyll
   class PrivateTourPageGenerator < Generator
     safe true
 
+    def tours_folder(site, locale)
+      site.pages.select do |p|
+        p.data['section'] == 'private.types' && p.data['locale'] == locale
+      end.first
+    end
+
     def generate(site)
       if site.layouts.key? 'private_tour_index'
+        private_tours = site.data['private']
         site.config['locales'].each do |locale_array|
           locale = locale_array.first
-          private_tours = site.data['private']
+          private_tours_folder = tours_folder(site, locale)
           private_tours.each do |private_tour|
             name = Utils.slugify(private_tour["title_#{locale}"])
-            site.pages << PrivateTourPage.new(site, site.source, File.join(locale, 'tours', 'private', name), private_tour, locale)
+            site.pages << PrivateTourPage.new(site, site.source, File.join(private_tours_folder.permalink[1..-1], name), private_tour, locale)
           end
         end
       end
