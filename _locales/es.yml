@@ -140,10 +140,16 @@ es:
       title: "$Tours regulares$"
       description: "¡Únete a nuestro grupo guiado, conoce a gente y disfrute de nuestra
         experiencia!"
+      review: Fuí con unos amigos, hicimos una degustación de vinos buenísimos, un
+        paseo muy relajante por un pueblo pequeño con mucho encanto y degustamos unas
+        tapas muy buenas en un sitio muy original!
     private:
       title: "$Tours privados y eventos$"
       description: HAT Barcelona ofrece tours de vinos. Cada una de nuestras experiencias
         se puede personalizar.
+      review: Este pasado 25 de junio tenia un compromiso con unos amigos malagueños.
+        Pensé en un tour característico de nuestra tierra y la verdad es que fue una
+        idea fantástica. Muchas gracias a HAT Barcelona, fue un día genial!
   icone:
     title_1: Días y Duración
     title_2: Punto de encuentro

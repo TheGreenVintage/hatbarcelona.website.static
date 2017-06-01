@@ -141,10 +141,16 @@ ca:
       title: "$Tours regulars$"
       description: Uneix-te al nostre grup guiat, coneix a gent i gaudeixi de la nostra
         experiència!
+      review: Vaig anar amb uns amics, vam fer una degustació de vins boníssims, un
+        passeig molt relaxant per un poble petit amb molt encant i vam degustar unes
+        tapes molt bones a un lloc molt original!
     private:
       title: "$Tours privats i esdeveniments$"
       description: HAT Barcelona ofereix tours vitivinícoles. Cada una de les nostres
         experiències pot adaptar-se als vostres interessos i gustos.
+      review: El passat 25 de juny tenia un compromís amb uns amics malaguenys. Vaig
+        pensar que un tour característic de la nostra terra podría ser una idea fantàstica.
+        Moltes gràcies a HAT Barcelona, va ser un dia genial!
   icone:
     title_1: Dies i duració
     title_2: Punt de trobada

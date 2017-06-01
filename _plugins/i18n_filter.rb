@@ -14,7 +14,7 @@ module Jekyll
       I18n.l input, :format => format
     end
 
-    def translate(input, interpolations=[], highlight=true, linebreak=true)
+    def translate(input, interpolations=[], highlighted=true, linebreak=true)
       locale = @context.registers[:page]['locale']
 
       load_translations
@@ -26,20 +26,23 @@ module Jekyll
       params.merge!(locale: locale)
 
       translation = I18n.t input, params
-
-      if highlight
-        translation.gsub!(/\$([^$]+)\$/, '<span class="highlight">\1</span>')
-      else
-        translation.gsub!(/\$([^$]+)\$/, '\1')
-      end
-
+      translation = highlight(translation, highlighted)
       translation.gsub!(/\n/, '<br />') if linebreak
       translation
     end
 
-    def field(input, field)
+    def field(input, field, highlighted=true)
       locale = @context.registers[:page]['locale']
-      input["#{field}_#{locale}"]
+      translation = input["#{field}_#{locale}"]
+      translation = highlight(translation, highlighted)
+      translation
+    end
+
+    def highlight(translation, highlighted)
+      return if translation.nil?
+      return translation.gsub(/\$([^$]+)\$/, '\1') unless highlighted
+
+      translation.gsub(/\$([^$]+)\$/, '<span class="highlight">\1</span>')
     end
 
     def list(input)
