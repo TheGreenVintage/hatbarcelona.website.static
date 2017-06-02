@@ -8,39 +8,28 @@
   </div>
 </section>
 
-<section id="tour" class="section process-section align-center dark-text">
+<section id="tour" class="section align-center dark-text" style="margin-top: 20px;">
   <div class="container">
     <div class="section-content row">
-      <br/><br/>
-      <div class="col-sm-6">
-        <img src="/assets/img/features/content_image2.jpg" class="img-responsive" title="{{ 'types.regulars.title' | translate: nil, false, false }}" alt="{{ 'types.regulars.title' | translate: nil, false, false }}" />
-      </div>
-      <div class="col-sm-6 align-right">
-        <img src="/assets/img/features/content_image1.jpg" class="img-responsive" title="{{ 'types.private.title' | translate: nil, false, false }}" alt="{{ 'types.private.title' | translate: nil, false, false }}" />
-      </div>
-    </div>
-
-    <div class="section-content row">
       <div class="col-sm-6 align-center">
+        <img src="/assets/img/features/content_image2.jpg" class="img-responsive" title="{{ 'types.regulars.title' | translate: nil, false, false }}" alt="{{ 'types.regulars.title' | translate: nil, false, false }}" />
+        <br/>
         <article>
           <h3>{{ 'types.regulars.title' | translate }}</h3>
           <p class="sub-title medium">{{ 'types.regulars.description' | translate }}</p>
         </article>
-      </div>
-      <div class="col-sm-6 align-center">
-        <article>
-          <h3>{{ 'types.private.title' | translate }}</h3>
-          <p class="sub-title medium">{{ 'types.private.description' | translate }}</p>
-        </article>
-      </div>
-    </div>
-
-    <div class="section-content row">
-      <div class="col-sm-6 align-center">
+        <br/>
         {% assign regular = 'regular.types' | section %}
         <a class="btn btn-sm btn-solid base_clr_bg" href="{{ regular.permalink }}">{{ 'generic.more_info' | translate }}</a>
       </div>
       <div class="col-sm-6 align-center">
+        <img src="/assets/img/features/content_image1.jpg" class="img-responsive" title="{{ 'types.private.title' | translate: nil, false, false }}" alt="{{ 'types.private.title' | translate: nil, false, false }}" />
+        <br/>
+        <article>
+          <h3>{{ 'types.private.title' | translate }}</h3>
+          <p class="sub-title medium">{{ 'types.private.description' | translate }}</p>
+        </article>
+        <br/>
         {% assign private = 'private.types' | section %}
         <a class="btn btn-sm btn-solid base_clr_bg" href="{{ private.permalink }}">{{ 'generic.more_info' | translate }}</a>
       </div>
