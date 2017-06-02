@@ -194,9 +194,9 @@ en:
         village."
       button_4: MENU
   events:
-    title: Meetings & Private events
-    subtitle: If you're planning a special event and want something out of the ordinary,
-      imagine the possibilities of hosting your event in our wineries.
+    title: Private events
+    subtitle: If you're planning a $special event$ and want something out of the ordinary,
+      $imagine the possibilities$ of hosting your event in our $wineries.$
     type1:
       title: "$MEETING ROOMS$"
       description: "A very interesting option for companies that want a special ambience

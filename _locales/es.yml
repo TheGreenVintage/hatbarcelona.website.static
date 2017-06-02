@@ -190,8 +190,8 @@ es:
       button_4: MENÚ
   events:
     title: Eventos privados
-    subtitle: Si planeas un evento especial y quieres algo fuera de lo común, imagina
-      las posibilidades de organizar tu evento en nuestras bodegas.
+    subtitle: Si planeas un $evento especial$ y quieres algo fuera de lo común, $imagina
+      las posibilidades$ de organizar tu evento en nuestras $bodegas.$
     type1:
       title: "$REUNIONES Y EVENTOS$"
       description: |-

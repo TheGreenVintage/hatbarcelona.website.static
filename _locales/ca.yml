@@ -191,9 +191,9 @@ ca:
       button_4: MENÚ
   events:
     title: Esdeveniments privats
-    subtitle: Si estás organitzant un esdeveniment especial i vols alguna cosa fora
-      del comú, imagina les possibilitats d'organitzar el teu esdeveniment en els
-      nostres cellers.
+    subtitle: Si estás organitzant un $esdeveniment especial$ i vols alguna cosa fora
+      del comú, $imagina les possibilitats$ d'organitzar el teu esdeveniment en els
+      nostres $cellers.$
     type1:
       title: "$REUNIONS I ESDEVENIMENTS$"
       description: |-
