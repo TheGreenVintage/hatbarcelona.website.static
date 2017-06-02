@@ -20,7 +20,7 @@
 
           <li class="{% if page.section == 'regular.types' %}active{% endif %}"><a href="{{ regular.permalink }}">{{ 'regular_tours.title' | translate }}</a></li>
           <li class="{% if page.section == 'private.types' %}active{% endif %}"><a href="{{ private.permalink }}">{{ 'private_tours.title' | translate }}</a></li>
-          <li class="{% if page.section == 'events' %}active{% endif %}"><a href="{{ event.permalink }}">{{ 'events.title' | translate }}</a></li>
+          <li><a href="{{ event.permalink }}">{{ 'events.title' | translate }}</a></li>
 
           <li><a href="/{{ page.locale }}#gallery">{{ 'gallery.title' | translate }}</a></li>
           <li><a href="/{{ page.locale }}#footer">{{ 'contact.title' | translate }}</a></li>
@@ -35,9 +35,11 @@
           </ul>
         </div>
 
+        {% unless include.no_reserve %}
         <div class="navigation-bar navigation-bar-right navigation-call-to-action">
           <a href="https://www.eventbrite.co.uk/o/hat-barcelona-tours-11099973698" class="btn btn-sm btn-solid base_clr_bg" target="_blank">{{ 'packages.price_button' | translate }}</a>
         </div>
+        {% endunless %}
       </div>
     </div>
   </nav>

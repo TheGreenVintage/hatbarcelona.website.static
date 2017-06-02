@@ -4,15 +4,15 @@ section: regular
 ---
 
 {% include header.html breadcrumb=true %}
-{% include private-front.html %}
+{% include front.html %}
 {% include icons.html %}
 
 {% assign simple = page.tour | field: 'description' | strip_newlines %}
 
 {% if simple == "" %}
-  {% include itinerary.html %}
+  {% include regulars/itinerary-hat-alella-tour.html %}
 {% else %}
-  {% include itinerary-simple.html %}
+  {% include itinerary.html %}
 {% endif %}
 
 {% include map.html %}

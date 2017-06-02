@@ -190,9 +190,6 @@ ca:
         el preciós poble d'Alella i els seus voltants.
       button_4: MENÚ
   events:
-    introduction: Tenim experiència en l'organització d'esdeveniments en llocs molt
-      especials com és un celler. Oferim una gran varietat d'esdeveniments, des de
-      petits sopars fins a grans esdeveniments corporatius.
     title: Esdeveniments privats
     subtitle: Si estás organitzant un esdeveniment especial i vols alguna cosa fora
       del comú, imagina les possibilitats d'organitzar el teu esdeveniment en els
@@ -200,16 +197,15 @@ ca:
     type1:
       title: "$REUNIONS I ESDEVENIMENTS$"
       description: |-
-        Planifiqui el seu esdeveniment privat amb nosaltres i deixi que el nostre equip dissenyi una experiència memorable que deixarà als seus convidats parlant d'això durant els propers anys. Oferim l'organització de principi a fi, amb capacitat per a grups de 15-200 persones. Tots els nostres esdeveniments privats tenen lloc a exclusius cellers.
-
-        • Formats: Teatre, Escola, imperial, "O" i banquet
-        • Facilitats tècniques: WIFI, projector, pantalla i pissarra
-        • Opcions: Coffee Break i menjar
+        Oferim l'organització de principi a fi, amb capacitat per a grups de 15-200 persones.
+        Formats: Teatre, Escola, imperial, "O" i banquet
+        Facilitats tècniques: WIFI, projector, pantalla i pissarra
+        Opcions: Coffee Break i menjar
     type2:
       title: "$ÀPATS CORPORATIUS$"
-      description: Sorprengui als seus convidats amb els nostres espais privats disponibles
-        per als seus esdeveniments. Preparem opcions de menú per a vostè i els seus
-        convidats.
+      description: Si estàs buscant el lloc perfecte per organitzar el teu sopar o
+        esmorzar d'empresa, no dubtis a fer-ho en un dels nostres espais privats disponibles.
+        Preparem opcions de menú per a vostè i els seus convidats.
     type3:
       title: "$ROOM ESCAPE ENTRE VINYES - TEAM BUILDING$"
       description: Estàs preparat per viure una autèntica aventura de Room Escape
@@ -221,11 +217,10 @@ ca:
         pròpia per aconseguir trobar el nombre més gran de fites en el menor temps
         possible amb l'ajuda d'un mapa.
     type5:
-      title: "$DEGUSTACIÓ A CEGUES$"
-      description: Comenci la seva nit amb una degustació de vi a cegues. Li ensenyarem
-        el procés de producció, les varietats i tipologies del vi, per ajudar als
-        seus convidats a desxifrar els vins que estan gaudint. Després de la degustació,
-        els seus convidats gaudiran d’un sopar privat a un lloc privilegiat.
+      title: "$LLUNA I VINYES$"
+      description: Descobreix la màgia de la lluna plena entre vinyes. L’activitat
+        començarà amb una passejada per les vinyes, tot finalitzant amb un sopar a
+        la llum de la lluna.
     type6:
       title: "$FESTES PRIVADES$"
       description: Si està buscant alguna cosa diferent, els nostres organitzadors

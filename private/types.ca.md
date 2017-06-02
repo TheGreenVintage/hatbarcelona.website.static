@@ -6,4 +6,4 @@ body: landing-page
 permalink: /ca/tours/privats/
 ---
 
-{% include privates.html %}
+{% include private/list.html %}

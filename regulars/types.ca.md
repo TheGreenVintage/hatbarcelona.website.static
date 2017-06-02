@@ -6,4 +6,4 @@ body: landing-page
 permalink: /ca/tours/regulars/
 ---
 
-{% include regulars.html %}
+{% include regulars/list.html %}

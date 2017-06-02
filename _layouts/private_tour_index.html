@@ -4,9 +4,9 @@ section: private
 ---
 
 {% include header.html breadcrumb=true %}
-{% include private-front.html %}
+{% include front.html %}
 {% include icons.html %}
-{% include itinerary-simple.html %}
+{% include itinerary.html %}
 {% include gallery-tour.html %}
 
 {% assign details = page.tour | field: 'details' | strip_newlines %}

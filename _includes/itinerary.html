@@ -10,58 +10,8 @@
 
 <section id="tour" class="section process-section align-center dark-text">
   <div class="container">
-    <div class="section-content row">
-      <div class="col-sm-8 pull-right animated" data-duration="500" data-animation="fadeIn">
-        <img src="/assets/img/features/content_image1.jpg" class="img-responsive" title="{{ 'authentic.itinerary.title_1' | translate: nil, false, false }}" alt="{{ 'authentic.itinerary.title_1' | translate: nil, false, false }}" />
-      </div>
-      <div class="col-sm-4 align-left animated" data-duration="500" data-animation="fadeIn">
-        <br/><br/>
-        <article>
-          <h3>{{ 'authentic.itinerary.title_1' | translate }}</h3>
-          <p class="sub-title medium">{{ 'authentic.itinerary.description_1' | translate }}</p>
-        </article>
-      </div>
-
-      <hr class="clearfix" />
-
-      <div class="col-sm-8 animated" data-duration="500" data-animation="fadeIn">
-        <img src="/assets/img/features/content_image2.jpg" class="img-responsive" title="{{ 'authentic.itinerary.title_2' | translate: nil, false, false }}" alt="{{ 'authentic.itinerary.title_2' | translate: nil, false, false }}" />
-      </div>
-      <div class="col-sm-4 align-right animated" data-duration="500" data-animation="fadeIn">
-        <br/><br/>
-        <article>
-          <h3>{{ 'authentic.itinerary.title_2' | translate }}</h3>
-          <p class="sub-title medium">{{ 'authentic.itinerary.description_2' | translate }}</p>
-        </article>
-      </div>
-
-      <hr class="clearfix" />
-
-      <div class="col-sm-8 pull-right animated" data-duration="500" data-animation="fadeIn">
-        <img src="/assets/img/features/content_image3.jpg" class="img-responsive" title="{{ 'authentic.itinerary.title_3' | translate: nil, false, false }}" alt="{{ 'authentic.itinerary.title_3' | translate: nil, false, false }}" />
-      </div>
-      <div class="col-sm-4 align-left animated" data-duration="500" data-animation="fadeIn">
-        <br/><br/>
-        <article>
-          <h3>{{ 'authentic.itinerary.title_3' | translate }}</h3>
-          <p class="sub-title medium">{{ 'authentic.itinerary.description_3' | translate }}</p>
-        </article>
-      </div>
-
-      <hr class="clearfix" />
-
-      <div class="col-sm-8 animated" data-duration="500" data-animation="fadeIn">
-        <img src="/assets/img/features/content_image4.jpg" class="img-responsive" title="{{ 'authentic.itinerary.title_4' | translate: nil, false, false }}" alt="{{ 'authentic.itinerary.title_4' | translate: nil, false, false }}" />
-      </div>
-      <div class="col-sm-4 align-right animated" data-duration="500" data-animation="fadeIn">
-        <br/><br/>
-        <article>
-          <h3>{{ 'authentic.itinerary.title_4' | translate }}</h3>
-          <p class="sub-title medium">{{ 'authentic.itinerary.description_4' | translate }}</p>
-          {% assign menu = 'alella.menu' | section %}
-          <a class="btn btn-sm btn-solid base_clr_bg" href="{{ menu.permalink }}">{{ 'authentic.itinerary.button_4' | translate }}</a>
-        </article>
-      </div>
+    <div class="row" style="margin: 60px 0px 0px">
+      <p class="sub-title big">{{ page.tour | field: 'description' | newline_to_br }}</p>
     </div>
   </div>
 </section>

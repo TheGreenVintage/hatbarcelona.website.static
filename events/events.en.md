@@ -6,4 +6,4 @@ body: landing-page
 permalink: /en/events/
 ---
 
-{% include events.html %}
+{% include events/list.html %}
