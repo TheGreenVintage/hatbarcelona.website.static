@@ -5,11 +5,10 @@
       <h5 style="margin-bottom: 33px;">{{ 'home.front_description' | translate }}</h5>
     </div>
     <div class="align-center">
-      {% assign regulars = 'regular.types' | section %}
-      <a class="btn btn-lg btn-solid base_clr_bg" href="{{ regulars.permalink }}" style="margin-bottom: 10px;">{{ 'home.regulars.button' | translate }}</a>
-
       {% assign types = 'private' | section %}
       <a class="btn btn-lg btn-solid base_clr_bg" href="{{ private.permalink }}" style="margin-bottom: 10px;">{{ 'home.private.button' | translate }}</a>
+      {% assign event = 'events' | section %}
+      <a class="btn btn-lg btn-solid base_clr_bg" href="{{ event.permalink }}" style="margin-bottom: 10px;">{{ 'events.title' | translate }}</a>
     </div>
   </div>
 </div>

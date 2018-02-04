@@ -14,11 +14,9 @@
       </button>
       <div class="navigation-navbar collapsed">
         <ul class="navigation-bar navigation-bar-left">
-          {% assign regular = 'regular.types' | section %}
           {% assign private = 'private.types' | section %}
           {% assign event = 'events' | section %}
 
-          <li class="{% if page.section == 'regular.types' %}active{% endif %}"><a href="{{ regular.permalink }}">{{ 'regular_tours.title' | translate }}</a></li>
           <li class="{% if page.section == 'private.types' %}active{% endif %}"><a href="{{ private.permalink }}">{{ 'private_tours.title' | translate }}</a></li>
           <li><a href="{{ event.permalink }}">{{ 'events.title' | translate }}</a></li>
 

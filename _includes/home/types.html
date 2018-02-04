@@ -12,17 +12,6 @@
   <div class="container">
     <div class="section-content row">
       <div class="col-sm-6 align-center">
-        <img src="/assets/img/features/content_image2.jpg" class="img-responsive" title="{{ 'types.regulars.title' | translate: nil, false, false }}" alt="{{ 'types.regulars.title' | translate: nil, false, false }}" />
-        <br/>
-        <article>
-          <h3>{{ 'types.regulars.title' | translate }}</h3>
-          <p class="sub-title medium">{{ 'types.regulars.description' | translate }}</p>
-        </article>
-        <br/>
-        {% assign regular = 'regular.types' | section %}
-        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ regular.permalink }}">{{ 'generic.more_info' | translate }}</a>
-      </div>
-      <div class="col-sm-6 align-center">
         <img src="/assets/img/features/content_image1.jpg" class="img-responsive" title="{{ 'types.private.title' | translate: nil, false, false }}" alt="{{ 'types.private.title' | translate: nil, false, false }}" />
         <br/>
         <article>
@@ -32,6 +21,17 @@
         <br/>
         {% assign private = 'private.types' | section %}
         <a class="btn btn-sm btn-solid base_clr_bg" href="{{ private.permalink }}">{{ 'generic.more_info' | translate }}</a>
+      </div>
+      <div class="col-sm-6 align-center">
+        <img src="/assets/img/features/content_image2.jpg" class="img-responsive" title="{{ 'types.regulars.title' | translate: nil, false, false }}" alt="{{ 'types.regulars.title' | translate: nil, false, false }}" />
+        <br/>
+        <article>
+          <h3>{{ 'events.title' | translate }}</h3>
+          <p class="sub-title medium">{{ 'events.subtitle' | translate }}</p>
+        </article>
+        <br/>
+        {% assign event = 'events' | section %}
+        <a class="btn btn-sm btn-solid base_clr_bg" href="{{ event.permalink }}">{{ 'generic.more_info' | translate }}</a>
       </div>
     </div>
   </div>
