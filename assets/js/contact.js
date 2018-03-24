@@ -3,6 +3,8 @@ $(document).ready(function() {
 
   $form.submit(function(event) {
     var formData = {
+      'form-name':    $form.find('[name=form-name]').val(),
+
       name:    $form.find('[name=name]').val(),
       email:   $form.find('[name=email]').val(),
       phone:   $form.find('[name=phone]').val(),
