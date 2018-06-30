@@ -1,21 +1,3 @@
-[[redirects]]
-from = "/"
-to = "/en/"
-status = 301
-conditions = {Language = ["en"]}
-
-[[redirects]]
-from = "/"
-to = "/es/"
-status = 301
-conditions = {Language = ["es"]}
-
-[[redirects]]
-from = "/"
-to = "/ca/"
-status = 301
-conditions = {Language = ["ca"]}
-
 [[headers]]
 for = "/*"
 [headers.values]
